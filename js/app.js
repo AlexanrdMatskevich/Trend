@@ -337,6 +337,9 @@
 
   function setupListsDialog() {
     document.getElementById("lists-close").addEventListener("click", closeListsDialog);
+    document.getElementById("lists-create").addEventListener("click", function () {
+      // Stub: creating lists isn't implemented, this button is a mocked placeholder.
+    });
     document.getElementById("lists-backdrop").addEventListener("click", function (e) {
       if (e.target === document.getElementById("lists-backdrop")) closeListsDialog();
     });
