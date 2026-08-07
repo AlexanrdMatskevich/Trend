@@ -309,7 +309,7 @@
 
       var listsBtn = e.target.closest('[data-action="open-lists"]');
       if (listsBtn) {
-        openListsDialog(Number(listsBtn.getAttribute("data-repo-id")));
+        openListsDialog(Number(listsBtn.getAttribute("data-repo-id")), listsBtn);
         return;
       }
 
@@ -324,7 +324,24 @@
     });
   }
 
-  function openListsDialog(repoId) {
+  function positionOverlay(anchorEl) {
+    var overlay = document.getElementById("lists-overlay");
+    var rect = anchorEl.getBoundingClientRect();
+    var gap = 6;
+
+    var left = rect.right - overlay.offsetWidth;
+    left = Math.max(8, Math.min(left, window.innerWidth - overlay.offsetWidth - 8));
+
+    var top = rect.bottom + gap;
+    if (top + overlay.offsetHeight > window.innerHeight - 8) {
+      top = rect.top - overlay.offsetHeight - gap;
+    }
+
+    overlay.style.left = left + "px";
+    overlay.style.top = top + "px";
+  }
+
+  function openListsDialog(repoId, anchorEl) {
     var membership = state.listMembership[repoId] || {};
     var body = document.getElementById("lists-body");
     body.innerHTML = LISTS.map(function (list) {
@@ -346,6 +363,7 @@
     });
 
     document.getElementById("lists-backdrop").hidden = false;
+    positionOverlay(anchorEl);
   }
 
   function closeListsDialog() {

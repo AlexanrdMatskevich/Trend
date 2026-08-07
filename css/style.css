@@ -317,15 +317,13 @@ a:hover { text-decoration: underline; }
 .overlay-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(27, 31, 36, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 100;
 }
 .overlay-backdrop[hidden] { display: none; }
 .Overlay {
+  position: fixed;
   background: #fff;
+  border: 1px solid var(--border);
   border-radius: var(--radius);
   width: 320px;
   max-height: 70vh;
@@ -365,11 +363,11 @@ a:hover { text-decoration: underline; }
   border-top: 1px solid var(--border);
 }
 .btn-primary {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--green);
+  border-color: var(--green);
   color: #fff;
 }
-.btn-primary:hover { background: #0860ca; }
+.btn-primary:hover { background: #1a6f34; }
 .btn-block {
   display: flex;
   width: 100%;
