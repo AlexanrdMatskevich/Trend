@@ -28,6 +28,7 @@
     filters: { language: null, spoken_language: null, date_range: "daily" },
     data: { languages: [], spoken_languages: [], date_range: [], developers: [], repositories: [] },
     starred: {},
+    followed: {},
     listMembership: {}
   };
 
@@ -192,22 +193,28 @@
       var repoBlock = repo
         ? (
             '<div class="dev-repo">' +
-              '<div>' +
-                '<div class="dev-repo-name">' + svgRepo() + '<a href="' + repo.link + '">' + repo.name + '</a></div>' +
-                '<div class="dev-repo-desc">' + repo.description + '</div>' +
-              '</div>' +
-              renderRepoActions(repo) +
+              '<div class="dev-repo-label">' + svgRepo() + 'Popular repo</div>' +
+              '<div class="dev-repo-name"><a href="' + repo.link + '">' + repo.name + '</a></div>' +
+              '<div class="dev-repo-desc">' + repo.description + '</div>' +
             '</div>'
           )
         : "";
+
+      var isFollowing = !!state.followed[dev.id];
 
       return (
         '<div class="trend-item">' +
           '<div class="dev-rank">' + (index + 1) + '</div>' +
           '<div class="dev-avatar"><img src="' + dev.icon + '" alt="' + dev.name + '"></div>' +
           '<div class="dev-main">' +
-            '<div class="dev-name"><a href="' + dev.link + '">' + dev.name + '</a> <span class="dev-nickname">' + dev.nickname + '</span></div>' +
-            repoBlock +
+            '<div class="dev-name"><a href="' + dev.link + '">' + dev.name + '</a></div>' +
+            '<div class="dev-nickname">' + dev.nickname + '</div>' +
+          '</div>' +
+          repoBlock +
+          '<div class="dev-follow">' +
+            '<button type="button" class="btn btn-sm follow-btn' + (isFollowing ? ' is-following' : '') + '" data-action="toggle-follow" data-dev-id="' + dev.id + '">' +
+              (isFollowing ? "Unfollow" : "Follow") +
+            '</button>' +
           '</div>' +
         '</div>'
       );
@@ -303,6 +310,16 @@
       var listsBtn = e.target.closest('[data-action="open-lists"]');
       if (listsBtn) {
         openListsDialog(Number(listsBtn.getAttribute("data-repo-id")));
+        return;
+      }
+
+      var followBtn = e.target.closest('[data-action="toggle-follow"]');
+      if (followBtn) {
+        var devId = Number(followBtn.getAttribute("data-dev-id"));
+        var isFollowing = !state.followed[devId];
+        state.followed[devId] = isFollowing;
+        followBtn.classList.toggle("is-following", isFollowing);
+        followBtn.textContent = isFollowing ? "Unfollow" : "Follow";
       }
     });
   }

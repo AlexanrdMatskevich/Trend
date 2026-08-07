@@ -239,21 +239,27 @@ a:hover { text-decoration: underline; }
   object-fit: cover;
   background: var(--bg-subtle);
 }
-.dev-main { flex: 1; min-width: 0; }
+.dev-main { flex-shrink: 0; width: 200px; min-width: 0; }
 .dev-name { font-weight: 600; font-size: 15px; }
 .dev-nickname { color: var(--fg-muted); }
-.dev-repo {
-  margin-top: 8px;
+.dev-repo { flex: 1; min-width: 0; }
+.dev-repo-label {
   display: flex;
-  gap: 8px;
-  align-items: flex-start;
-  background: var(--bg-subtle);
-  border-radius: var(--radius);
-  padding: 8px 12px;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  color: var(--fg-muted);
+  font-size: 12px;
 }
-.dev-repo-name { display: flex; align-items: center; gap: 6px; font-weight: 600; }
-.dev-repo-name svg.icon-repo { fill: var(--fg-muted); flex-shrink: 0; }
-.dev-repo-desc { color: var(--fg-muted); font-size: 12.5px; }
+.dev-repo-label svg.icon-repo { fill: var(--fg-muted); flex-shrink: 0; }
+.dev-repo-name { font-weight: 600; }
+.dev-repo-desc { color: var(--fg-muted); font-size: 12.5px; margin-top: 2px; }
+.dev-follow { flex-shrink: 0; align-self: flex-start; }
+.follow-btn {
+  min-width: 84px;
+  justify-content: center;
+  border-radius: var(--radius);
+}
 
 .empty-state {
   padding: 40px 16px;
@@ -263,7 +269,6 @@ a:hover { text-decoration: underline; }
 
 /* Star split-button */
 .repo-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
-.dev-repo .repo-actions { margin-left: auto; }
 .btn-sponsor {
   display: inline-flex;
   align-items: center;
