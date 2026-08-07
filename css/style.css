@@ -200,6 +200,8 @@ a:hover { text-decoration: underline; }
 }
 .repo-meta .meta-item { display: flex; align-items: center; gap: 4px; }
 .repo-meta svg { fill: var(--fg-muted); }
+.repo-meta > *:not(:first-child):not(:last-child):hover { color: var(--accent); }
+.repo-meta > *:not(:first-child):not(:last-child):hover svg { fill: var(--accent); }
 .lang-dot {
   display: inline-block;
   width: 10px;
