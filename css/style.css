@@ -35,10 +35,14 @@ a:hover { text-decoration: underline; }
 .border-bottom { border-bottom: 1px solid var(--border); }
 .footer-inner {
   text-align: center;
-  padding: 48px 16px;
+  padding: 40px 16px;
 }
-.footer-inner h1 { margin: 0 0 8px; font-size: 26px; }
+.footer-inner h1 { margin: 0 0 8px; font-size: 26px; font-weight: 600; }
 .footer-inner p { margin: 0 auto; max-width: 480px; color: var(--fg-muted); font-size: 16px; }
+
+@media (min-width: 768px) {
+  .footer-inner h1 { font-size: 32px; }
+}
 
 /* Page body */
 .page-body {
