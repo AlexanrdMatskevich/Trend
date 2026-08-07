@@ -4,11 +4,11 @@
   var HERO_TEXT = {
     repositories: {
       title: "Trending",
-      subtitle: "See what the GitHub community is most excited about today."
+      subtitle: function (rangeLabel) { return "See what the GitHub community is most excited about " + rangeLabel + "."; }
     },
     developers: {
       title: "Trending",
-      subtitle: "These are the developers building the hot tools today."
+      subtitle: function (rangeLabel) { return "These are the developers building the hot tools " + rangeLabel + "."; }
     }
   };
 
@@ -124,8 +124,9 @@
 
   function renderHero() {
     var text = HERO_TEXT[state.view];
+    var rangeLabel = DATE_RANGE_LABEL[state.filters.date_range] || "today";
     var el = document.getElementById("footer-content");
-    el.innerHTML = "<h1>" + text.title + "</h1><p>" + text.subtitle + "</p>";
+    el.innerHTML = "<h1>" + text.title + "</h1><p>" + text.subtitle(rangeLabel) + "</p>";
   }
 
   function renderRepositories() {
@@ -185,7 +186,18 @@
 
   function renderDevelopers() {
     var container = document.getElementById("list-developers");
-    var devs = state.data.developers;
+    var devs = state.data.developers.filter(function (dev) {
+      var repo = repositoryById(dev.repositories[0]);
+      if (!repo) return false;
+      if (state.filters.language && repo.language !== state.filters.language) return false;
+      if (state.filters.spoken_language && repo.spoken_language !== state.filters.spoken_language) return false;
+      return true;
+    });
+
+    if (!devs.length) {
+      container.innerHTML = '<div class="empty-state">No developers match the selected filters.</div>';
+      return;
+    }
 
     container.innerHTML = devs.map(function (dev, index) {
       var repoId = dev.repositories[0];
@@ -412,7 +424,6 @@
     var showRepos = state.view === "repositories";
     document.getElementById("list-repositories").hidden = !showRepos;
     document.getElementById("list-developers").hidden = showRepos;
-    document.getElementById("filters").style.display = showRepos ? "flex" : "none";
 
     if (showRepos) {
       renderRepositories();
