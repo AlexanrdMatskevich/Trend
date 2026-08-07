@@ -174,7 +174,7 @@
               '<span class="meta-item">' + svgStar() + formatNumber(repo.number_of_stargazers) + '</span>' +
               '<span class="meta-item">' + svgFork() + formatNumber(repo.number_of_forks) + '</span>' +
               (avatars ? '<span class="contributors"><span class="contributors-label">Built by</span>' + avatars + '</span>' : '') +
-              '<span class="today-stars">' + svgStar() + ' ' + formatNumber(repo.period_stars) + ' stars ' + rangeLabel + '</span>' +
+              '<span class="today-stars">' + svgStar() + '<span>' + formatNumber(repo.period_stars) + ' stars ' + rangeLabel + '</span></span>' +
             '</div>' +
           '</div>' +
         '</div>'

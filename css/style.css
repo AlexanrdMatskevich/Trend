@@ -55,7 +55,6 @@ a:hover { text-decoration: underline; }
 .box {
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  overflow: hidden;
 }
 .box-header {
   display: flex;
@@ -220,6 +219,9 @@ a:hover { text-decoration: underline; }
 }
 .today-stars {
   margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   color: var(--fg-muted);
 }
 
