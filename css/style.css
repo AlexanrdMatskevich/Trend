@@ -185,9 +185,10 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
   gap: 12px;
 }
-.repo-title { font-size: 16px; font-weight: 600; }
+.repo-title { display: flex; align-items: center; gap: 6px; font-size: 16px; font-weight: 600; }
 .repo-title a { color: var(--accent); }
 .repo-title .owner { font-weight: 400; }
+.repo-title svg.icon-repo { fill: var(--fg-muted); flex-shrink: 0; }
 .repo-desc { margin: 4px 0 8px; color: var(--fg); }
 .repo-meta {
   display: flex;
@@ -217,8 +218,7 @@ a:hover { text-decoration: underline; }
 .contributors img:first-child { margin-left: 0; }
 .today-stars {
   margin-left: auto;
-  font-weight: 600;
-  color: var(--fg);
+  color: var(--fg-muted);
 }
 
 /* Developer row */
@@ -247,7 +247,8 @@ a:hover { text-decoration: underline; }
   border-radius: var(--radius);
   padding: 8px 12px;
 }
-.dev-repo-name { font-weight: 600; }
+.dev-repo-name { display: flex; align-items: center; gap: 6px; font-weight: 600; }
+.dev-repo-name svg.icon-repo { fill: var(--fg-muted); flex-shrink: 0; }
 .dev-repo-desc { color: var(--fg-muted); font-size: 12.5px; }
 
 .empty-state {
@@ -273,7 +274,7 @@ a:hover { text-decoration: underline; }
 }
 .btn-sponsor:hover { text-decoration: none; background: #eee; }
 .btn-sponsor svg { fill: #bf3989; }
-.BtnGroup { display: flex; }
+.BtnGroup { display: flex; border-radius: var(--radius); overflow: hidden; }
 .btn {
   display: inline-flex;
   align-items: center;

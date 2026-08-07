@@ -92,6 +92,12 @@
   function svgCaretDown() {
     return '<svg height="14" width="14" viewBox="0 0 16 16"><path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path></svg>';
   }
+  function svgStarFill() {
+    return '<svg height="14" width="14" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>';
+  }
+  function svgRepo() {
+    return '<svg height="14" width="14" viewBox="0 0 16 16" class="icon-repo"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path></svg>';
+  }
 
   function renderRepoActions(repo) {
     var isStarred = !!state.starred[repo.id];
@@ -103,9 +109,9 @@
     return (
       '<div class="repo-actions">' +
         sponsorBtn +
-        '<div class="BtnGroup">' +
+        '<div class="BtnGroup js-toggler-container js-social-container starring-container starring-container--with-list-menu d-flex' + (isStarred ? " on" : "") + '">' +
           '<button type="button" class="rounded-left-2 btn-sm btn BtnGroup-item' + (isStarred ? ' is-starred' : '') + '" data-action="toggle-star" data-repo-id="' + repo.id + '">' +
-            svgStar() + '<span class="star-label">' + (isStarred ? "Starred" : "Star") + '</span>' +
+            (isStarred ? svgStarFill() : svgStar()) + '<span class="star-label">' + (isStarred ? "Starred" : "Star") + '</span>' +
           '</button>' +
           '<button type="button" class="Button Button--iconOnly Button--secondary Button--small rounded-right-2 rounded-left-0 px-3 tmp-px-3" data-action="open-lists" data-repo-id="' + repo.id + '" aria-label="Add ' + repo.name + ' to a list">' +
             svgCaretDown() +
@@ -157,6 +163,7 @@
           '<div class="repo-main">' +
             '<div class="repo-title-row">' +
               '<div class="repo-title">' +
+                svgRepo() +
                 '<a href="' + repo.link + '"><span class="owner">' + owner + ' / </span>' + name + '</a>' +
               '</div>' +
               renderRepoActions(repo) +
@@ -186,7 +193,7 @@
         ? (
             '<div class="dev-repo">' +
               '<div>' +
-                '<div class="dev-repo-name"><a href="' + repo.link + '">' + repo.name + '</a></div>' +
+                '<div class="dev-repo-name">' + svgRepo() + '<a href="' + repo.link + '">' + repo.name + '</a></div>' +
                 '<div class="dev-repo-desc">' + repo.description + '</div>' +
               '</div>' +
               renderRepoActions(repo) +
@@ -288,6 +295,7 @@
         var isStarred = !state.starred[repoId];
         state.starred[repoId] = isStarred;
         starBtn.classList.toggle("is-starred", isStarred);
+        starBtn.querySelector("svg").outerHTML = isStarred ? svgStarFill() : svgStar();
         starBtn.querySelector(".star-label").textContent = isStarred ? "Starred" : "Star";
         return;
       }
