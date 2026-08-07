@@ -1,0 +1,3298 @@
+[
+  {
+    "id": "unknown",
+    "name": "Unknown languages"
+  },
+  {
+    "id": "1c-enterprise",
+    "name": "1C Enterprise"
+  },
+  {
+    "id": "2-dimensional-array",
+    "name": "2-Dimensional Array"
+  },
+  {
+    "id": "4d",
+    "name": "4D"
+  },
+  {
+    "id": "abap",
+    "name": "ABAP"
+  },
+  {
+    "id": "abap-cds",
+    "name": "ABAP CDS"
+  },
+  {
+    "id": "abnf",
+    "name": "ABNF"
+  },
+  {
+    "id": "actionscript",
+    "name": "ActionScript"
+  },
+  {
+    "id": "ada",
+    "name": "Ada"
+  },
+  {
+    "id": "adblock-filter-list",
+    "name": "Adblock Filter List"
+  },
+  {
+    "id": "adobe-font-metrics",
+    "name": "Adobe Font Metrics"
+  },
+  {
+    "id": "agda",
+    "name": "Agda"
+  },
+  {
+    "id": "ags-script",
+    "name": "AGS Script"
+  },
+  {
+    "id": "aidl",
+    "name": "AIDL"
+  },
+  {
+    "id": "aiken",
+    "name": "Aiken"
+  },
+  {
+    "id": "al",
+    "name": "AL"
+  },
+  {
+    "id": "algol",
+    "name": "ALGOL"
+  },
+  {
+    "id": "alloy",
+    "name": "Alloy"
+  },
+  {
+    "id": "alpine-abuild",
+    "name": "Alpine Abuild"
+  },
+  {
+    "id": "altium-designer",
+    "name": "Altium Designer"
+  },
+  {
+    "id": "ampl",
+    "name": "AMPL"
+  },
+  {
+    "id": "angelscript",
+    "name": "AngelScript"
+  },
+  {
+    "id": "answer-set-programming",
+    "name": "Answer Set Programming"
+  },
+  {
+    "id": "ant-build-system",
+    "name": "Ant Build System"
+  },
+  {
+    "id": "antlers",
+    "name": "Antlers"
+  },
+  {
+    "id": "antlr",
+    "name": "ANTLR"
+  },
+  {
+    "id": "apacheconf",
+    "name": "ApacheConf"
+  },
+  {
+    "id": "apex",
+    "name": "Apex"
+  },
+  {
+    "id": "api-blueprint",
+    "name": "API Blueprint"
+  },
+  {
+    "id": "apl",
+    "name": "APL"
+  },
+  {
+    "id": "apollo-guidance-computer",
+    "name": "Apollo Guidance Computer"
+  },
+  {
+    "id": "applescript",
+    "name": "AppleScript"
+  },
+  {
+    "id": "arc",
+    "name": "Arc"
+  },
+  {
+    "id": "asciidoc",
+    "name": "AsciiDoc"
+  },
+  {
+    "id": "asl",
+    "name": "ASL"
+  },
+  {
+    "id": "asn.1",
+    "name": "ASN.1"
+  },
+  {
+    "id": "classic-asp",
+    "name": "Classic ASP"
+  },
+  {
+    "id": "asp.net",
+    "name": "ASP.NET"
+  },
+  {
+    "id": "aspectj",
+    "name": "AspectJ"
+  },
+  {
+    "id": "assembly",
+    "name": "Assembly"
+  },
+  {
+    "id": "astro",
+    "name": "Astro"
+  },
+  {
+    "id": "asymptote",
+    "name": "Asymptote"
+  },
+  {
+    "id": "ats",
+    "name": "ATS"
+  },
+  {
+    "id": "augeas",
+    "name": "Augeas"
+  },
+  {
+    "id": "autohotkey",
+    "name": "AutoHotkey"
+  },
+  {
+    "id": "autoit",
+    "name": "AutoIt"
+  },
+  {
+    "id": "avro-idl",
+    "name": "Avro IDL"
+  },
+  {
+    "id": "awk",
+    "name": "Awk"
+  },
+  {
+    "id": "b-(formal-method)",
+    "name": "B (Formal Method)"
+  },
+  {
+    "id": "b4x",
+    "name": "B4X"
+  },
+  {
+    "id": "ballerina",
+    "name": "Ballerina"
+  },
+  {
+    "id": "baml",
+    "name": "BAML"
+  },
+  {
+    "id": "basic",
+    "name": "BASIC"
+  },
+  {
+    "id": "batchfile",
+    "name": "Batchfile"
+  },
+  {
+    "id": "beef",
+    "name": "Beef"
+  },
+  {
+    "id": "befunge",
+    "name": "Befunge"
+  },
+  {
+    "id": "berry",
+    "name": "Berry"
+  },
+  {
+    "id": "bibtex",
+    "name": "BibTeX"
+  },
+  {
+    "id": "bibtex-style",
+    "name": "BibTeX Style"
+  },
+  {
+    "id": "bicep",
+    "name": "Bicep"
+  },
+  {
+    "id": "bikeshed",
+    "name": "Bikeshed"
+  },
+  {
+    "id": "bison",
+    "name": "Bison"
+  },
+  {
+    "id": "bitbake",
+    "name": "BitBake"
+  },
+  {
+    "id": "blade",
+    "name": "Blade"
+  },
+  {
+    "id": "blitzbasic",
+    "name": "BlitzBasic"
+  },
+  {
+    "id": "blitzmax",
+    "name": "BlitzMax"
+  },
+  {
+    "id": "bluespec",
+    "name": "Bluespec"
+  },
+  {
+    "id": "bluespec-bh",
+    "name": "Bluespec BH"
+  },
+  {
+    "id": "boo",
+    "name": "Boo"
+  },
+  {
+    "id": "boogie",
+    "name": "Boogie"
+  },
+  {
+    "id": "bqn",
+    "name": "BQN"
+  },
+  {
+    "id": "brainfuck",
+    "name": "Brainfuck"
+  },
+  {
+    "id": "brighterscript",
+    "name": "BrighterScript"
+  },
+  {
+    "id": "brightscript",
+    "name": "Brightscript"
+  },
+  {
+    "id": "zeek",
+    "name": "Zeek"
+  },
+  {
+    "id": "browserslist",
+    "name": "Browserslist"
+  },
+  {
+    "id": "bru",
+    "name": "Bru"
+  },
+  {
+    "id": "buildstream",
+    "name": "BuildStream"
+  },
+  {
+    "id": "c",
+    "name": "C"
+  },
+  {
+    "id": "c%23",
+    "name": "C#"
+  },
+  {
+    "id": "c++",
+    "name": "C++"
+  },
+  {
+    "id": "c-objdump",
+    "name": "C-ObjDump"
+  },
+  {
+    "id": "c2hs-haskell",
+    "name": "C2hs Haskell"
+  },
+  {
+    "id": "c3",
+    "name": "C3"
+  },
+  {
+    "id": "cabal-config",
+    "name": "Cabal Config"
+  },
+  {
+    "id": "caddyfile",
+    "name": "Caddyfile"
+  },
+  {
+    "id": "cadence",
+    "name": "Cadence"
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo"
+  },
+  {
+    "id": "cairo-zero",
+    "name": "Cairo Zero"
+  },
+  {
+    "id": "cameligo",
+    "name": "CameLIGO"
+  },
+  {
+    "id": "cangjie",
+    "name": "Cangjie"
+  },
+  {
+    "id": "cap-cds",
+    "name": "CAP CDS"
+  },
+  {
+    "id": "cap&#39;n-proto",
+    "name": "Cap'n Proto"
+  },
+  {
+    "id": "carbon",
+    "name": "Carbon"
+  },
+  {
+    "id": "cartocss",
+    "name": "CartoCSS"
+  },
+  {
+    "id": "ceylon",
+    "name": "Ceylon"
+  },
+  {
+    "id": "chapel",
+    "name": "Chapel"
+  },
+  {
+    "id": "charity",
+    "name": "Charity"
+  },
+  {
+    "id": "checksums",
+    "name": "Checksums"
+  },
+  {
+    "id": "chuck",
+    "name": "ChucK"
+  },
+  {
+    "id": "cil",
+    "name": "CIL"
+  },
+  {
+    "id": "circom",
+    "name": "Circom"
+  },
+  {
+    "id": "cirru",
+    "name": "Cirru"
+  },
+  {
+    "id": "clarion",
+    "name": "Clarion"
+  },
+  {
+    "id": "clarity",
+    "name": "Clarity"
+  },
+  {
+    "id": "classic-asp",
+    "name": "Classic ASP"
+  },
+  {
+    "id": "clean",
+    "name": "Clean"
+  },
+  {
+    "id": "click",
+    "name": "Click"
+  },
+  {
+    "id": "clips",
+    "name": "CLIPS"
+  },
+  {
+    "id": "clojure",
+    "name": "Clojure"
+  },
+  {
+    "id": "closure-templates",
+    "name": "Closure Templates"
+  },
+  {
+    "id": "cloud-firestore-security-rules",
+    "name": "Cloud Firestore Security Rules"
+  },
+  {
+    "id": "clue",
+    "name": "Clue"
+  },
+  {
+    "id": "cmake",
+    "name": "CMake"
+  },
+  {
+    "id": "cobol",
+    "name": "COBOL"
+  },
+  {
+    "id": "codeowners",
+    "name": "CODEOWNERS"
+  },
+  {
+    "id": "codeql",
+    "name": "CodeQL"
+  },
+  {
+    "id": "coffeescript",
+    "name": "CoffeeScript"
+  },
+  {
+    "id": "coldfusion",
+    "name": "ColdFusion"
+  },
+  {
+    "id": "coldfusion-cfc",
+    "name": "ColdFusion CFC"
+  },
+  {
+    "id": "collada",
+    "name": "COLLADA"
+  },
+  {
+    "id": "common-lisp",
+    "name": "Common Lisp"
+  },
+  {
+    "id": "common-workflow-language",
+    "name": "Common Workflow Language"
+  },
+  {
+    "id": "component-pascal",
+    "name": "Component Pascal"
+  },
+  {
+    "id": "conll-u",
+    "name": "CoNLL-U"
+  },
+  {
+    "id": "cooklang",
+    "name": "Cooklang"
+  },
+  {
+    "id": "cool",
+    "name": "Cool"
+  },
+  {
+    "id": "rocq-prover",
+    "name": "Rocq Prover"
+  },
+  {
+    "id": "cpp-objdump",
+    "name": "Cpp-ObjDump"
+  },
+  {
+    "id": "cql",
+    "name": "CQL"
+  },
+  {
+    "id": "creole",
+    "name": "Creole"
+  },
+  {
+    "id": "crontab",
+    "name": "crontab"
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal"
+  },
+  {
+    "id": "cson",
+    "name": "CSON"
+  },
+  {
+    "id": "csound",
+    "name": "Csound"
+  },
+  {
+    "id": "csound-document",
+    "name": "Csound Document"
+  },
+  {
+    "id": "csound-score",
+    "name": "Csound Score"
+  },
+  {
+    "id": "css",
+    "name": "CSS"
+  },
+  {
+    "id": "csv",
+    "name": "CSV"
+  },
+  {
+    "id": "cuda",
+    "name": "Cuda"
+  },
+  {
+    "id": "cue",
+    "name": "CUE"
+  },
+  {
+    "id": "cue-sheet",
+    "name": "Cue Sheet"
+  },
+  {
+    "id": "curl-config",
+    "name": "cURL Config"
+  },
+  {
+    "id": "curry",
+    "name": "Curry"
+  },
+  {
+    "id": "cweb",
+    "name": "CWeb"
+  },
+  {
+    "id": "cycript",
+    "name": "Cycript"
+  },
+  {
+    "id": "cylc",
+    "name": "Cylc"
+  },
+  {
+    "id": "cypher",
+    "name": "Cypher"
+  },
+  {
+    "id": "cython",
+    "name": "Cython"
+  },
+  {
+    "id": "d",
+    "name": "D"
+  },
+  {
+    "id": "d-objdump",
+    "name": "D-ObjDump"
+  },
+  {
+    "id": "d2",
+    "name": "D2"
+  },
+  {
+    "id": "dafny",
+    "name": "Dafny"
+  },
+  {
+    "id": "darcs-patch",
+    "name": "Darcs Patch"
+  },
+  {
+    "id": "dart",
+    "name": "Dart"
+  },
+  {
+    "id": "daslang",
+    "name": "Daslang"
+  },
+  {
+    "id": "dataweave",
+    "name": "DataWeave"
+  },
+  {
+    "id": "debian-package-control-file",
+    "name": "Debian Package Control File"
+  },
+  {
+    "id": "denizenscript",
+    "name": "DenizenScript"
+  },
+  {
+    "id": "desktop",
+    "name": "desktop"
+  },
+  {
+    "id": "dhall",
+    "name": "Dhall"
+  },
+  {
+    "id": "diff",
+    "name": "Diff"
+  },
+  {
+    "id": "digital-command-language",
+    "name": "DIGITAL Command Language"
+  },
+  {
+    "id": "dircolors",
+    "name": "dircolors"
+  },
+  {
+    "id": "directx-3d-file",
+    "name": "DirectX 3D File"
+  },
+  {
+    "id": "dm",
+    "name": "DM"
+  },
+  {
+    "id": "dns-zone",
+    "name": "DNS Zone"
+  },
+  {
+    "id": "dockerfile",
+    "name": "Dockerfile"
+  },
+  {
+    "id": "dogescript",
+    "name": "Dogescript"
+  },
+  {
+    "id": "dotenv",
+    "name": "Dotenv"
+  },
+  {
+    "id": "dtrace",
+    "name": "DTrace"
+  },
+  {
+    "id": "dune",
+    "name": "Dune"
+  },
+  {
+    "id": "dylan",
+    "name": "Dylan"
+  },
+  {
+    "id": "e",
+    "name": "E"
+  },
+  {
+    "id": "e-mail",
+    "name": "E-mail"
+  },
+  {
+    "id": "eagle",
+    "name": "Eagle"
+  },
+  {
+    "id": "earthly",
+    "name": "Earthly"
+  },
+  {
+    "id": "easybuild",
+    "name": "Easybuild"
+  },
+  {
+    "id": "ebnf",
+    "name": "EBNF"
+  },
+  {
+    "id": "ec",
+    "name": "eC"
+  },
+  {
+    "id": "ecere-projects",
+    "name": "Ecere Projects"
+  },
+  {
+    "id": "ecl",
+    "name": "ECL"
+  },
+  {
+    "id": "eclipse",
+    "name": "ECLiPSe"
+  },
+  {
+    "id": "ecmarkup",
+    "name": "Ecmarkup"
+  },
+  {
+    "id": "edge",
+    "name": "Edge"
+  },
+  {
+    "id": "edgeql",
+    "name": "EdgeQL"
+  },
+  {
+    "id": "editorconfig",
+    "name": "EditorConfig"
+  },
+  {
+    "id": "edje-data-collection",
+    "name": "Edje Data Collection"
+  },
+  {
+    "id": "edn",
+    "name": "edn"
+  },
+  {
+    "id": "eiffel",
+    "name": "Eiffel"
+  },
+  {
+    "id": "ejs",
+    "name": "EJS"
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir"
+  },
+  {
+    "id": "elm",
+    "name": "Elm"
+  },
+  {
+    "id": "elvish",
+    "name": "Elvish"
+  },
+  {
+    "id": "elvish-transcript",
+    "name": "Elvish Transcript"
+  },
+  {
+    "id": "emacs-lisp",
+    "name": "Emacs Lisp"
+  },
+  {
+    "id": "emberscript",
+    "name": "EmberScript"
+  },
+  {
+    "id": "e-mail",
+    "name": "E-mail"
+  },
+  {
+    "id": "eq",
+    "name": "EQ"
+  },
+  {
+    "id": "erlang",
+    "name": "Erlang"
+  },
+  {
+    "id": "euphoria",
+    "name": "Euphoria"
+  },
+  {
+    "id": "f%23",
+    "name": "F#"
+  },
+  {
+    "id": "f*",
+    "name": "F*"
+  },
+  {
+    "id": "factor",
+    "name": "Factor"
+  },
+  {
+    "id": "fancy",
+    "name": "Fancy"
+  },
+  {
+    "id": "fantom",
+    "name": "Fantom"
+  },
+  {
+    "id": "faust",
+    "name": "Faust"
+  },
+  {
+    "id": "fennel",
+    "name": "Fennel"
+  },
+  {
+    "id": "figlet-font",
+    "name": "FIGlet Font"
+  },
+  {
+    "id": "filebench-wml",
+    "name": "Filebench WML"
+  },
+  {
+    "id": "filterscript",
+    "name": "Filterscript"
+  },
+  {
+    "id": "firrtl",
+    "name": "FIRRTL"
+  },
+  {
+    "id": "fish",
+    "name": "fish"
+  },
+  {
+    "id": "flix",
+    "name": "Flix"
+  },
+  {
+    "id": "fluent",
+    "name": "Fluent"
+  },
+  {
+    "id": "flux",
+    "name": "FLUX"
+  },
+  {
+    "id": "formatted",
+    "name": "Formatted"
+  },
+  {
+    "id": "forth",
+    "name": "Forth"
+  },
+  {
+    "id": "fortran",
+    "name": "Fortran"
+  },
+  {
+    "id": "fortran-free-form",
+    "name": "Fortran Free Form"
+  },
+  {
+    "id": "freebasic",
+    "name": "FreeBASIC"
+  },
+  {
+    "id": "freemarker",
+    "name": "FreeMarker"
+  },
+  {
+    "id": "frege",
+    "name": "Frege"
+  },
+  {
+    "id": "futhark",
+    "name": "Futhark"
+  },
+  {
+    "id": "g-code",
+    "name": "G-code"
+  },
+  {
+    "id": "game-maker-language",
+    "name": "Game Maker Language"
+  },
+  {
+    "id": "gaml",
+    "name": "GAML"
+  },
+  {
+    "id": "gams",
+    "name": "GAMS"
+  },
+  {
+    "id": "gap",
+    "name": "GAP"
+  },
+  {
+    "id": "gcc-machine-description",
+    "name": "GCC Machine Description"
+  },
+  {
+    "id": "gdb",
+    "name": "GDB"
+  },
+  {
+    "id": "gdscript",
+    "name": "GDScript"
+  },
+  {
+    "id": "gdshader",
+    "name": "GDShader"
+  },
+  {
+    "id": "gedcom",
+    "name": "GEDCOM"
+  },
+  {
+    "id": "gemfile.lock",
+    "name": "Gemfile.lock"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini"
+  },
+  {
+    "id": "genero-4gl",
+    "name": "Genero 4gl"
+  },
+  {
+    "id": "genero-per",
+    "name": "Genero per"
+  },
+  {
+    "id": "genie",
+    "name": "Genie"
+  },
+  {
+    "id": "genshi",
+    "name": "Genshi"
+  },
+  {
+    "id": "gentoo-ebuild",
+    "name": "Gentoo Ebuild"
+  },
+  {
+    "id": "gentoo-eclass",
+    "name": "Gentoo Eclass"
+  },
+  {
+    "id": "gerber-image",
+    "name": "Gerber Image"
+  },
+  {
+    "id": "gettext-catalog",
+    "name": "Gettext Catalog"
+  },
+  {
+    "id": "gherkin",
+    "name": "Gherkin"
+  },
+  {
+    "id": "git-attributes",
+    "name": "Git Attributes"
+  },
+  {
+    "id": "git-commit",
+    "name": "Git Commit"
+  },
+  {
+    "id": "git-config",
+    "name": "Git Config"
+  },
+  {
+    "id": "git-revision-list",
+    "name": "Git Revision List"
+  },
+  {
+    "id": "gleam",
+    "name": "Gleam"
+  },
+  {
+    "id": "glimmer-js",
+    "name": "Glimmer JS"
+  },
+  {
+    "id": "glimmer-ts",
+    "name": "Glimmer TS"
+  },
+  {
+    "id": "glsl",
+    "name": "GLSL"
+  },
+  {
+    "id": "glyph",
+    "name": "Glyph"
+  },
+  {
+    "id": "glyph-bitmap-distribution-format",
+    "name": "Glyph Bitmap Distribution Format"
+  },
+  {
+    "id": "gn",
+    "name": "GN"
+  },
+  {
+    "id": "gnuplot",
+    "name": "Gnuplot"
+  },
+  {
+    "id": "go",
+    "name": "Go"
+  },
+  {
+    "id": "go-checksums",
+    "name": "Go Checksums"
+  },
+  {
+    "id": "go-module",
+    "name": "Go Module"
+  },
+  {
+    "id": "go-template",
+    "name": "Go Template"
+  },
+  {
+    "id": "go-workspace",
+    "name": "Go Workspace"
+  },
+  {
+    "id": "godot-resource",
+    "name": "Godot Resource"
+  },
+  {
+    "id": "golo",
+    "name": "Golo"
+  },
+  {
+    "id": "gosu",
+    "name": "Gosu"
+  },
+  {
+    "id": "grace",
+    "name": "Grace"
+  },
+  {
+    "id": "gradle",
+    "name": "Gradle"
+  },
+  {
+    "id": "gradle-kotlin-dsl",
+    "name": "Gradle Kotlin DSL"
+  },
+  {
+    "id": "grammatical-framework",
+    "name": "Grammatical Framework"
+  },
+  {
+    "id": "graph-modeling-language",
+    "name": "Graph Modeling Language"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL"
+  },
+  {
+    "id": "graphviz-(dot)",
+    "name": "Graphviz (DOT)"
+  },
+  {
+    "id": "groovy",
+    "name": "Groovy"
+  },
+  {
+    "id": "groovy-server-pages",
+    "name": "Groovy Server Pages"
+  },
+  {
+    "id": "gsc",
+    "name": "GSC"
+  },
+  {
+    "id": "gtkrc",
+    "name": "GtkRC"
+  },
+  {
+    "id": "hack",
+    "name": "Hack"
+  },
+  {
+    "id": "haml",
+    "name": "Haml"
+  },
+  {
+    "id": "handlebars",
+    "name": "Handlebars"
+  },
+  {
+    "id": "haproxy",
+    "name": "HAProxy"
+  },
+  {
+    "id": "harbour",
+    "name": "Harbour"
+  },
+  {
+    "id": "hare",
+    "name": "Hare"
+  },
+  {
+    "id": "haskell",
+    "name": "Haskell"
+  },
+  {
+    "id": "haxe",
+    "name": "Haxe"
+  },
+  {
+    "id": "hcl",
+    "name": "HCL"
+  },
+  {
+    "id": "hip",
+    "name": "HIP"
+  },
+  {
+    "id": "hiveql",
+    "name": "HiveQL"
+  },
+  {
+    "id": "hlsl",
+    "name": "HLSL"
+  },
+  {
+    "id": "hocon",
+    "name": "HOCON"
+  },
+  {
+    "id": "holyc",
+    "name": "HolyC"
+  },
+  {
+    "id": "hoon",
+    "name": "hoon"
+  },
+  {
+    "id": "hosts-file",
+    "name": "Hosts File"
+  },
+  {
+    "id": "html",
+    "name": "HTML"
+  },
+  {
+    "id": "jinja",
+    "name": "Jinja"
+  },
+  {
+    "id": "html+ecr",
+    "name": "HTML+ECR"
+  },
+  {
+    "id": "html+eex",
+    "name": "HTML+EEX"
+  },
+  {
+    "id": "html+erb",
+    "name": "HTML+ERB"
+  },
+  {
+    "id": "html+php",
+    "name": "HTML+PHP"
+  },
+  {
+    "id": "html+razor",
+    "name": "HTML+Razor"
+  },
+  {
+    "id": "http",
+    "name": "HTTP"
+  },
+  {
+    "id": "hurl",
+    "name": "Hurl"
+  },
+  {
+    "id": "hxml",
+    "name": "HXML"
+  },
+  {
+    "id": "hy",
+    "name": "Hy"
+  },
+  {
+    "id": "hyphy",
+    "name": "HyPhy"
+  },
+  {
+    "id": "icalendar",
+    "name": "iCalendar"
+  },
+  {
+    "id": "idl",
+    "name": "IDL"
+  },
+  {
+    "id": "idris",
+    "name": "Idris"
+  },
+  {
+    "id": "ignore-list",
+    "name": "Ignore List"
+  },
+  {
+    "id": "igor-pro",
+    "name": "IGOR Pro"
+  },
+  {
+    "id": "il-assembly",
+    "name": "IL Assembly"
+  },
+  {
+    "id": "imagej-macro",
+    "name": "ImageJ Macro"
+  },
+  {
+    "id": "imba",
+    "name": "Imba"
+  },
+  {
+    "id": "inform-7",
+    "name": "Inform 7"
+  },
+  {
+    "id": "ini",
+    "name": "INI"
+  },
+  {
+    "id": "ink",
+    "name": "Ink"
+  },
+  {
+    "id": "inno-setup",
+    "name": "Inno Setup"
+  },
+  {
+    "id": "io",
+    "name": "Io"
+  },
+  {
+    "id": "ioke",
+    "name": "Ioke"
+  },
+  {
+    "id": "irc-log",
+    "name": "IRC log"
+  },
+  {
+    "id": "isabelle",
+    "name": "Isabelle"
+  },
+  {
+    "id": "isabelle-root",
+    "name": "Isabelle ROOT"
+  },
+  {
+    "id": "ispc",
+    "name": "ISPC"
+  },
+  {
+    "id": "j",
+    "name": "J"
+  },
+  {
+    "id": "jac",
+    "name": "Jac"
+  },
+  {
+    "id": "jai",
+    "name": "Jai"
+  },
+  {
+    "id": "janet",
+    "name": "Janet"
+  },
+  {
+    "id": "jar-manifest",
+    "name": "JAR Manifest"
+  },
+  {
+    "id": "jasmin",
+    "name": "Jasmin"
+  },
+  {
+    "id": "java",
+    "name": "Java"
+  },
+  {
+    "id": "java-properties",
+    "name": "Java Properties"
+  },
+  {
+    "id": "java-server-pages",
+    "name": "Java Server Pages"
+  },
+  {
+    "id": "java-template-engine",
+    "name": "Java Template Engine"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript"
+  },
+  {
+    "id": "javascript+erb",
+    "name": "JavaScript+ERB"
+  },
+  {
+    "id": "jcl",
+    "name": "JCL"
+  },
+  {
+    "id": "jest-snapshot",
+    "name": "Jest Snapshot"
+  },
+  {
+    "id": "jetbrains-mps",
+    "name": "JetBrains MPS"
+  },
+  {
+    "id": "jflex",
+    "name": "JFlex"
+  },
+  {
+    "id": "jinja",
+    "name": "Jinja"
+  },
+  {
+    "id": "jison",
+    "name": "Jison"
+  },
+  {
+    "id": "jison-lex",
+    "name": "Jison Lex"
+  },
+  {
+    "id": "jolie",
+    "name": "Jolie"
+  },
+  {
+    "id": "jq",
+    "name": "jq"
+  },
+  {
+    "id": "json",
+    "name": "JSON"
+  },
+  {
+    "id": "json-with-comments",
+    "name": "JSON with Comments"
+  },
+  {
+    "id": "json5",
+    "name": "JSON5"
+  },
+  {
+    "id": "jsoniq",
+    "name": "JSONiq"
+  },
+  {
+    "id": "jsonld",
+    "name": "JSONLD"
+  },
+  {
+    "id": "jsonnet",
+    "name": "Jsonnet"
+  },
+  {
+    "id": "julia",
+    "name": "Julia"
+  },
+  {
+    "id": "julia-repl",
+    "name": "Julia REPL"
+  },
+  {
+    "id": "jupyter-notebook",
+    "name": "Jupyter Notebook"
+  },
+  {
+    "id": "just",
+    "name": "Just"
+  },
+  {
+    "id": "kaitai-struct",
+    "name": "Kaitai Struct"
+  },
+  {
+    "id": "kakounescript",
+    "name": "KakouneScript"
+  },
+  {
+    "id": "kcl",
+    "name": "KCL"
+  },
+  {
+    "id": "kdl",
+    "name": "KDL"
+  },
+  {
+    "id": "kerboscript",
+    "name": "KerboScript"
+  },
+  {
+    "id": "kframework",
+    "name": "KFramework"
+  },
+  {
+    "id": "kicad-layout",
+    "name": "KiCad Layout"
+  },
+  {
+    "id": "kicad-legacy-layout",
+    "name": "KiCad Legacy Layout"
+  },
+  {
+    "id": "kicad-schematic",
+    "name": "KiCad Schematic"
+  },
+  {
+    "id": "kickstart",
+    "name": "Kickstart"
+  },
+  {
+    "id": "kit",
+    "name": "Kit"
+  },
+  {
+    "id": "koka",
+    "name": "Koka"
+  },
+  {
+    "id": "kolmafia-ash",
+    "name": "KoLmafia ASH"
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin"
+  },
+  {
+    "id": "krl",
+    "name": "KRL"
+  },
+  {
+    "id": "kusto",
+    "name": "Kusto"
+  },
+  {
+    "id": "kvlang",
+    "name": "kvlang"
+  },
+  {
+    "id": "labview",
+    "name": "LabVIEW"
+  },
+  {
+    "id": "lambdapi",
+    "name": "Lambdapi"
+  },
+  {
+    "id": "langium",
+    "name": "Langium"
+  },
+  {
+    "id": "lark",
+    "name": "Lark"
+  },
+  {
+    "id": "lasso",
+    "name": "Lasso"
+  },
+  {
+    "id": "latte",
+    "name": "Latte"
+  },
+  {
+    "id": "lean",
+    "name": "Lean"
+  },
+  {
+    "id": "lean-4",
+    "name": "Lean 4"
+  },
+  {
+    "id": "leo",
+    "name": "Leo"
+  },
+  {
+    "id": "less",
+    "name": "Less"
+  },
+  {
+    "id": "lex",
+    "name": "Lex"
+  },
+  {
+    "id": "lfe",
+    "name": "LFE"
+  },
+  {
+    "id": "ligolang",
+    "name": "LigoLANG"
+  },
+  {
+    "id": "lilypond",
+    "name": "LilyPond"
+  },
+  {
+    "id": "limbo",
+    "name": "Limbo"
+  },
+  {
+    "id": "linear-programming",
+    "name": "Linear Programming"
+  },
+  {
+    "id": "linker-script",
+    "name": "Linker Script"
+  },
+  {
+    "id": "linux-kernel-module",
+    "name": "Linux Kernel Module"
+  },
+  {
+    "id": "liquid",
+    "name": "Liquid"
+  },
+  {
+    "id": "liquidsoap",
+    "name": "Liquidsoap"
+  },
+  {
+    "id": "literate-agda",
+    "name": "Literate Agda"
+  },
+  {
+    "id": "literate-coffeescript",
+    "name": "Literate CoffeeScript"
+  },
+  {
+    "id": "literate-haskell",
+    "name": "Literate Haskell"
+  },
+  {
+    "id": "livecode-script",
+    "name": "LiveCode Script"
+  },
+  {
+    "id": "livescript",
+    "name": "LiveScript"
+  },
+  {
+    "id": "llvm",
+    "name": "LLVM"
+  },
+  {
+    "id": "logos",
+    "name": "Logos"
+  },
+  {
+    "id": "logtalk",
+    "name": "Logtalk"
+  },
+  {
+    "id": "lolcode",
+    "name": "LOLCODE"
+  },
+  {
+    "id": "lookml",
+    "name": "LookML"
+  },
+  {
+    "id": "loomscript",
+    "name": "LoomScript"
+  },
+  {
+    "id": "lsl",
+    "name": "LSL"
+  },
+  {
+    "id": "ltspice-symbol",
+    "name": "LTspice Symbol"
+  },
+  {
+    "id": "lua",
+    "name": "Lua"
+  },
+  {
+    "id": "luau",
+    "name": "Luau"
+  },
+  {
+    "id": "m",
+    "name": "M"
+  },
+  {
+    "id": "m3u",
+    "name": "M3U"
+  },
+  {
+    "id": "m4",
+    "name": "M4"
+  },
+  {
+    "id": "m4sugar",
+    "name": "M4Sugar"
+  },
+  {
+    "id": "macaulay2",
+    "name": "Macaulay2"
+  },
+  {
+    "id": "makefile",
+    "name": "Makefile"
+  },
+  {
+    "id": "mako",
+    "name": "Mako"
+  },
+  {
+    "id": "markdown",
+    "name": "Markdown"
+  },
+  {
+    "id": "marko",
+    "name": "Marko"
+  },
+  {
+    "id": "mask",
+    "name": "Mask"
+  },
+  {
+    "id": "wolfram-language",
+    "name": "Wolfram Language"
+  },
+  {
+    "id": "mathematical-programming-system",
+    "name": "Mathematical Programming System"
+  },
+  {
+    "id": "matlab",
+    "name": "MATLAB"
+  },
+  {
+    "id": "maven-pom",
+    "name": "Maven POM"
+  },
+  {
+    "id": "max",
+    "name": "Max"
+  },
+  {
+    "id": "maxscript",
+    "name": "MAXScript"
+  },
+  {
+    "id": "mcfunction",
+    "name": "mcfunction"
+  },
+  {
+    "id": "mdsvex",
+    "name": "mdsvex"
+  },
+  {
+    "id": "mdx",
+    "name": "MDX"
+  },
+  {
+    "id": "wikitext",
+    "name": "Wikitext"
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury"
+  },
+  {
+    "id": "mermaid",
+    "name": "Mermaid"
+  },
+  {
+    "id": "meson",
+    "name": "Meson"
+  },
+  {
+    "id": "metal",
+    "name": "Metal"
+  },
+  {
+    "id": "metta",
+    "name": "MeTTa"
+  },
+  {
+    "id": "microsoft-developer-studio-project",
+    "name": "Microsoft Developer Studio Project"
+  },
+  {
+    "id": "microsoft-visual-studio-solution",
+    "name": "Microsoft Visual Studio Solution"
+  },
+  {
+    "id": "minid",
+    "name": "MiniD"
+  },
+  {
+    "id": "miniyaml",
+    "name": "MiniYAML"
+  },
+  {
+    "id": "minizinc",
+    "name": "MiniZinc"
+  },
+  {
+    "id": "minizinc-data",
+    "name": "MiniZinc Data"
+  },
+  {
+    "id": "mint",
+    "name": "Mint"
+  },
+  {
+    "id": "mirah",
+    "name": "Mirah"
+  },
+  {
+    "id": "mirc-script",
+    "name": "mIRC Script"
+  },
+  {
+    "id": "mlir",
+    "name": "MLIR"
+  },
+  {
+    "id": "modelica",
+    "name": "Modelica"
+  },
+  {
+    "id": "modula-2",
+    "name": "Modula-2"
+  },
+  {
+    "id": "modula-3",
+    "name": "Modula-3"
+  },
+  {
+    "id": "module-management-system",
+    "name": "Module Management System"
+  },
+  {
+    "id": "mojo",
+    "name": "Mojo"
+  },
+  {
+    "id": "monkey",
+    "name": "Monkey"
+  },
+  {
+    "id": "monkey-c",
+    "name": "Monkey C"
+  },
+  {
+    "id": "moocode",
+    "name": "Moocode"
+  },
+  {
+    "id": "moonbit",
+    "name": "MoonBit"
+  },
+  {
+    "id": "moonscript",
+    "name": "MoonScript"
+  },
+  {
+    "id": "motoko",
+    "name": "Motoko"
+  },
+  {
+    "id": "motorola-68k-assembly",
+    "name": "Motorola 68K Assembly"
+  },
+  {
+    "id": "move",
+    "name": "Move"
+  },
+  {
+    "id": "mql4",
+    "name": "MQL4"
+  },
+  {
+    "id": "mql5",
+    "name": "MQL5"
+  },
+  {
+    "id": "mtml",
+    "name": "MTML"
+  },
+  {
+    "id": "muf",
+    "name": "MUF"
+  },
+  {
+    "id": "mupad",
+    "name": "mupad"
+  },
+  {
+    "id": "muse",
+    "name": "Muse"
+  },
+  {
+    "id": "mustache",
+    "name": "Mustache"
+  },
+  {
+    "id": "myghty",
+    "name": "Myghty"
+  },
+  {
+    "id": "nanorc",
+    "name": "nanorc"
+  },
+  {
+    "id": "nasal",
+    "name": "Nasal"
+  },
+  {
+    "id": "nasl",
+    "name": "NASL"
+  },
+  {
+    "id": "ncl",
+    "name": "NCL"
+  },
+  {
+    "id": "nearley",
+    "name": "Nearley"
+  },
+  {
+    "id": "nemerle",
+    "name": "Nemerle"
+  },
+  {
+    "id": "neon",
+    "name": "NEON"
+  },
+  {
+    "id": "nesc",
+    "name": "nesC"
+  },
+  {
+    "id": "netlinx",
+    "name": "NetLinx"
+  },
+  {
+    "id": "netlinx+erb",
+    "name": "NetLinx+ERB"
+  },
+  {
+    "id": "netlogo",
+    "name": "NetLogo"
+  },
+  {
+    "id": "newlisp",
+    "name": "NewLisp"
+  },
+  {
+    "id": "nextflow",
+    "name": "Nextflow"
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx"
+  },
+  {
+    "id": "nickel",
+    "name": "Nickel"
+  },
+  {
+    "id": "nim",
+    "name": "Nim"
+  },
+  {
+    "id": "ninja",
+    "name": "Ninja"
+  },
+  {
+    "id": "nit",
+    "name": "Nit"
+  },
+  {
+    "id": "nix",
+    "name": "Nix"
+  },
+  {
+    "id": "nl",
+    "name": "NL"
+  },
+  {
+    "id": "nmodl",
+    "name": "NMODL"
+  },
+  {
+    "id": "noir",
+    "name": "Noir"
+  },
+  {
+    "id": "npm-config",
+    "name": "NPM Config"
+  },
+  {
+    "id": "nsis",
+    "name": "NSIS"
+  },
+  {
+    "id": "nu",
+    "name": "Nu"
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy"
+  },
+  {
+    "id": "nunjucks",
+    "name": "Nunjucks"
+  },
+  {
+    "id": "nushell",
+    "name": "Nushell"
+  },
+  {
+    "id": "nwscript",
+    "name": "NWScript"
+  },
+  {
+    "id": "oasv2-json",
+    "name": "OASv2-json"
+  },
+  {
+    "id": "oasv2-yaml",
+    "name": "OASv2-yaml"
+  },
+  {
+    "id": "oasv3-json",
+    "name": "OASv3-json"
+  },
+  {
+    "id": "oasv3-yaml",
+    "name": "OASv3-yaml"
+  },
+  {
+    "id": "oberon",
+    "name": "Oberon"
+  },
+  {
+    "id": "objdump",
+    "name": "ObjDump"
+  },
+  {
+    "id": "object-data-instance-notation",
+    "name": "Object Data Instance Notation"
+  },
+  {
+    "id": "objective-c",
+    "name": "Objective-C"
+  },
+  {
+    "id": "objective-c++",
+    "name": "Objective-C++"
+  },
+  {
+    "id": "objective-j",
+    "name": "Objective-J"
+  },
+  {
+    "id": "objectscript",
+    "name": "ObjectScript"
+  },
+  {
+    "id": "ocaml",
+    "name": "OCaml"
+  },
+  {
+    "id": "odin",
+    "name": "Odin"
+  },
+  {
+    "id": "omgrofl",
+    "name": "Omgrofl"
+  },
+  {
+    "id": "omnet++-msg",
+    "name": "OMNeT++ MSG"
+  },
+  {
+    "id": "omnet++-ned",
+    "name": "OMNeT++ NED"
+  },
+  {
+    "id": "omnet++-msg",
+    "name": "OMNeT++ MSG"
+  },
+  {
+    "id": "omnet++-ned",
+    "name": "OMNeT++ NED"
+  },
+  {
+    "id": "ooc",
+    "name": "ooc"
+  },
+  {
+    "id": "opa",
+    "name": "Opa"
+  },
+  {
+    "id": "opal",
+    "name": "Opal"
+  },
+  {
+    "id": "open-policy-agent",
+    "name": "Open Policy Agent"
+  },
+  {
+    "id": "openapi-specification-v2",
+    "name": "OpenAPI Specification v2"
+  },
+  {
+    "id": "openapi-specification-v3",
+    "name": "OpenAPI Specification v3"
+  },
+  {
+    "id": "opencl",
+    "name": "OpenCL"
+  },
+  {
+    "id": "openedge-abl",
+    "name": "OpenEdge ABL"
+  },
+  {
+    "id": "openqasm",
+    "name": "OpenQASM"
+  },
+  {
+    "id": "openrc-runscript",
+    "name": "OpenRC runscript"
+  },
+  {
+    "id": "openscad",
+    "name": "OpenSCAD"
+  },
+  {
+    "id": "openstep-property-list",
+    "name": "OpenStep Property List"
+  },
+  {
+    "id": "opentype-feature-file",
+    "name": "OpenType Feature File"
+  },
+  {
+    "id": "option-list",
+    "name": "Option List"
+  },
+  {
+    "id": "org",
+    "name": "Org"
+  },
+  {
+    "id": "overpassql",
+    "name": "OverpassQL"
+  },
+  {
+    "id": "overpy",
+    "name": "OverPy"
+  },
+  {
+    "id": "ox",
+    "name": "Ox"
+  },
+  {
+    "id": "oxygene",
+    "name": "Oxygene"
+  },
+  {
+    "id": "oz",
+    "name": "Oz"
+  },
+  {
+    "id": "p4",
+    "name": "P4"
+  },
+  {
+    "id": "pact",
+    "name": "Pact"
+  },
+  {
+    "id": "pan",
+    "name": "Pan"
+  },
+  {
+    "id": "papyrus",
+    "name": "Papyrus"
+  },
+  {
+    "id": "parrot",
+    "name": "Parrot"
+  },
+  {
+    "id": "parrot-assembly",
+    "name": "Parrot Assembly"
+  },
+  {
+    "id": "parrot-internal-representation",
+    "name": "Parrot Internal Representation"
+  },
+  {
+    "id": "pascal",
+    "name": "Pascal"
+  },
+  {
+    "id": "pawn",
+    "name": "Pawn"
+  },
+  {
+    "id": "pddl",
+    "name": "PDDL"
+  },
+  {
+    "id": "peg.js",
+    "name": "PEG.js"
+  },
+  {
+    "id": "pep8",
+    "name": "Pep8"
+  },
+  {
+    "id": "perl",
+    "name": "Perl"
+  },
+  {
+    "id": "php",
+    "name": "PHP"
+  },
+  {
+    "id": "pic",
+    "name": "Pic"
+  },
+  {
+    "id": "pickle",
+    "name": "Pickle"
+  },
+  {
+    "id": "picolisp",
+    "name": "PicoLisp"
+  },
+  {
+    "id": "piglatin",
+    "name": "PigLatin"
+  },
+  {
+    "id": "pike",
+    "name": "Pike"
+  },
+  {
+    "id": "pip-requirements",
+    "name": "Pip Requirements"
+  },
+  {
+    "id": "pkg-config",
+    "name": "pkg-config"
+  },
+  {
+    "id": "pkl",
+    "name": "Pkl"
+  },
+  {
+    "id": "plantuml",
+    "name": "PlantUML"
+  },
+  {
+    "id": "plpgsql",
+    "name": "PLpgSQL"
+  },
+  {
+    "id": "plsql",
+    "name": "PLSQL"
+  },
+  {
+    "id": "pod",
+    "name": "Pod"
+  },
+  {
+    "id": "pod-6",
+    "name": "Pod 6"
+  },
+  {
+    "id": "pogoscript",
+    "name": "PogoScript"
+  },
+  {
+    "id": "polar",
+    "name": "Polar"
+  },
+  {
+    "id": "pony",
+    "name": "Pony"
+  },
+  {
+    "id": "portugol",
+    "name": "Portugol"
+  },
+  {
+    "id": "postcss",
+    "name": "PostCSS"
+  },
+  {
+    "id": "postscript",
+    "name": "PostScript"
+  },
+  {
+    "id": "pov-ray-sdl",
+    "name": "POV-Ray SDL"
+  },
+  {
+    "id": "power-query",
+    "name": "Power Query"
+  },
+  {
+    "id": "powerbuilder",
+    "name": "PowerBuilder"
+  },
+  {
+    "id": "powershell",
+    "name": "PowerShell"
+  },
+  {
+    "id": "praat",
+    "name": "Praat"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma"
+  },
+  {
+    "id": "pro*c",
+    "name": "Pro*C"
+  },
+  {
+    "id": "processing",
+    "name": "Processing"
+  },
+  {
+    "id": "procfile",
+    "name": "Procfile"
+  },
+  {
+    "id": "proguard",
+    "name": "Proguard"
+  },
+  {
+    "id": "prolog",
+    "name": "Prolog"
+  },
+  {
+    "id": "promela",
+    "name": "Promela"
+  },
+  {
+    "id": "propeller-spin",
+    "name": "Propeller Spin"
+  },
+  {
+    "id": "protocol-buffer",
+    "name": "Protocol Buffer"
+  },
+  {
+    "id": "protocol-buffer-text-format",
+    "name": "Protocol Buffer Text Format"
+  },
+  {
+    "id": "public-key",
+    "name": "Public Key"
+  },
+  {
+    "id": "pug",
+    "name": "Pug"
+  },
+  {
+    "id": "puppet",
+    "name": "Puppet"
+  },
+  {
+    "id": "pure-data",
+    "name": "Pure Data"
+  },
+  {
+    "id": "purebasic",
+    "name": "PureBasic"
+  },
+  {
+    "id": "purescript",
+    "name": "PureScript"
+  },
+  {
+    "id": "pyret",
+    "name": "Pyret"
+  },
+  {
+    "id": "python",
+    "name": "Python"
+  },
+  {
+    "id": "python-console",
+    "name": "Python console"
+  },
+  {
+    "id": "python-traceback",
+    "name": "Python traceback"
+  },
+  {
+    "id": "q",
+    "name": "q"
+  },
+  {
+    "id": "q%23",
+    "name": "Q#"
+  },
+  {
+    "id": "qmake",
+    "name": "QMake"
+  },
+  {
+    "id": "qml",
+    "name": "QML"
+  },
+  {
+    "id": "qt-script",
+    "name": "Qt Script"
+  },
+  {
+    "id": "quake",
+    "name": "Quake"
+  },
+  {
+    "id": "quakec",
+    "name": "QuakeC"
+  },
+  {
+    "id": "quickbasic",
+    "name": "QuickBASIC"
+  },
+  {
+    "id": "quint",
+    "name": "Quint"
+  },
+  {
+    "id": "r",
+    "name": "R"
+  },
+  {
+    "id": "racket",
+    "name": "Racket"
+  },
+  {
+    "id": "ragel",
+    "name": "Ragel"
+  },
+  {
+    "id": "raku",
+    "name": "Raku"
+  },
+  {
+    "id": "raml",
+    "name": "RAML"
+  },
+  {
+    "id": "rascal",
+    "name": "Rascal"
+  },
+  {
+    "id": "rascript",
+    "name": "RAScript"
+  },
+  {
+    "id": "raw-token-data",
+    "name": "Raw token data"
+  },
+  {
+    "id": "rbs",
+    "name": "RBS"
+  },
+  {
+    "id": "rdoc",
+    "name": "RDoc"
+  },
+  {
+    "id": "readline-config",
+    "name": "Readline Config"
+  },
+  {
+    "id": "realbasic",
+    "name": "REALbasic"
+  },
+  {
+    "id": "reason",
+    "name": "Reason"
+  },
+  {
+    "id": "reasonligo",
+    "name": "ReasonLIGO"
+  },
+  {
+    "id": "rebol",
+    "name": "Rebol"
+  },
+  {
+    "id": "record-jar",
+    "name": "Record Jar"
+  },
+  {
+    "id": "red",
+    "name": "Red"
+  },
+  {
+    "id": "redcode",
+    "name": "Redcode"
+  },
+  {
+    "id": "redirect-rules",
+    "name": "Redirect Rules"
+  },
+  {
+    "id": "redscript",
+    "name": "Redscript"
+  },
+  {
+    "id": "regular-expression",
+    "name": "Regular Expression"
+  },
+  {
+    "id": "ren&#39;py",
+    "name": "Ren'Py"
+  },
+  {
+    "id": "renderscript",
+    "name": "RenderScript"
+  },
+  {
+    "id": "rescript",
+    "name": "ReScript"
+  },
+  {
+    "id": "restructuredtext",
+    "name": "reStructuredText"
+  },
+  {
+    "id": "rexx",
+    "name": "REXX"
+  },
+  {
+    "id": "rez",
+    "name": "Rez"
+  },
+  {
+    "id": "rich-text-format",
+    "name": "Rich Text Format"
+  },
+  {
+    "id": "ring",
+    "name": "Ring"
+  },
+  {
+    "id": "riot",
+    "name": "Riot"
+  },
+  {
+    "id": "rmarkdown",
+    "name": "RMarkdown"
+  },
+  {
+    "id": "robotframework",
+    "name": "RobotFramework"
+  },
+  {
+    "id": "robots-exclusion-rules",
+    "name": "Robots Exclusion Rules"
+  },
+  {
+    "id": "robots-exclusion-rules",
+    "name": "Robots Exclusion Rules"
+  },
+  {
+    "id": "roc",
+    "name": "Roc"
+  },
+  {
+    "id": "rocq-prover",
+    "name": "Rocq Prover"
+  },
+  {
+    "id": "roff",
+    "name": "Roff"
+  },
+  {
+    "id": "roff-manpage",
+    "name": "Roff Manpage"
+  },
+  {
+    "id": "ron",
+    "name": "RON"
+  },
+  {
+    "id": "ros-interface",
+    "name": "ROS Interface"
+  },
+  {
+    "id": "rouge",
+    "name": "Rouge"
+  },
+  {
+    "id": "routeros-script",
+    "name": "RouterOS Script"
+  },
+  {
+    "id": "rpc",
+    "name": "RPC"
+  },
+  {
+    "id": "rpgle",
+    "name": "RPGLE"
+  },
+  {
+    "id": "rpm-spec",
+    "name": "RPM Spec"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby"
+  },
+  {
+    "id": "runoff",
+    "name": "RUNOFF"
+  },
+  {
+    "id": "rust",
+    "name": "Rust"
+  },
+  {
+    "id": "sage",
+    "name": "Sage"
+  },
+  {
+    "id": "sail",
+    "name": "Sail"
+  },
+  {
+    "id": "saltstack",
+    "name": "SaltStack"
+  },
+  {
+    "id": "sas",
+    "name": "SAS"
+  },
+  {
+    "id": "sass",
+    "name": "Sass"
+  },
+  {
+    "id": "scala",
+    "name": "Scala"
+  },
+  {
+    "id": "scaml",
+    "name": "Scaml"
+  },
+  {
+    "id": "scenic",
+    "name": "Scenic"
+  },
+  {
+    "id": "scheme",
+    "name": "Scheme"
+  },
+  {
+    "id": "scilab",
+    "name": "Scilab"
+  },
+  {
+    "id": "scss",
+    "name": "SCSS"
+  },
+  {
+    "id": "sed",
+    "name": "sed"
+  },
+  {
+    "id": "self",
+    "name": "Self"
+  },
+  {
+    "id": "selinux-policy",
+    "name": "SELinux Policy"
+  },
+  {
+    "id": "shaderlab",
+    "name": "ShaderLab"
+  },
+  {
+    "id": "shell",
+    "name": "Shell"
+  },
+  {
+    "id": "shellcheck-config",
+    "name": "ShellCheck Config"
+  },
+  {
+    "id": "shellsession",
+    "name": "ShellSession"
+  },
+  {
+    "id": "shen",
+    "name": "Shen"
+  },
+  {
+    "id": "sieve",
+    "name": "Sieve"
+  },
+  {
+    "id": "simple-file-verification",
+    "name": "Simple File Verification"
+  },
+  {
+    "id": "singularity",
+    "name": "Singularity"
+  },
+  {
+    "id": "slang",
+    "name": "Slang"
+  },
+  {
+    "id": "slash",
+    "name": "Slash"
+  },
+  {
+    "id": "slice",
+    "name": "Slice"
+  },
+  {
+    "id": "slim",
+    "name": "Slim"
+  },
+  {
+    "id": "slint",
+    "name": "Slint"
+  },
+  {
+    "id": "smali",
+    "name": "Smali"
+  },
+  {
+    "id": "smalltalk",
+    "name": "Smalltalk"
+  },
+  {
+    "id": "smarty",
+    "name": "Smarty"
+  },
+  {
+    "id": "smithy",
+    "name": "Smithy"
+  },
+  {
+    "id": "smpl",
+    "name": "SmPL"
+  },
+  {
+    "id": "smt",
+    "name": "SMT"
+  },
+  {
+    "id": "snakemake",
+    "name": "Snakemake"
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity"
+  },
+  {
+    "id": "soong",
+    "name": "Soong"
+  },
+  {
+    "id": "sourcepawn",
+    "name": "SourcePawn"
+  },
+  {
+    "id": "sparql",
+    "name": "SPARQL"
+  },
+  {
+    "id": "spline-font-database",
+    "name": "Spline Font Database"
+  },
+  {
+    "id": "sqf",
+    "name": "SQF"
+  },
+  {
+    "id": "sql",
+    "name": "SQL"
+  },
+  {
+    "id": "sqlpl",
+    "name": "SQLPL"
+  },
+  {
+    "id": "squirrel",
+    "name": "Squirrel"
+  },
+  {
+    "id": "srecode-template",
+    "name": "SRecode Template"
+  },
+  {
+    "id": "ssh-config",
+    "name": "SSH Config"
+  },
+  {
+    "id": "stan",
+    "name": "Stan"
+  },
+  {
+    "id": "standard-ml",
+    "name": "Standard ML"
+  },
+  {
+    "id": "star",
+    "name": "STAR"
+  },
+  {
+    "id": "starlark",
+    "name": "Starlark"
+  },
+  {
+    "id": "stata",
+    "name": "Stata"
+  },
+  {
+    "id": "stl",
+    "name": "STL"
+  },
+  {
+    "id": "ston",
+    "name": "STON"
+  },
+  {
+    "id": "stringtemplate",
+    "name": "StringTemplate"
+  },
+  {
+    "id": "stylus",
+    "name": "Stylus"
+  },
+  {
+    "id": "subrip-text",
+    "name": "SubRip Text"
+  },
+  {
+    "id": "sugarss",
+    "name": "SugarSS"
+  },
+  {
+    "id": "supercollider",
+    "name": "SuperCollider"
+  },
+  {
+    "id": "surrealql",
+    "name": "SurrealQL"
+  },
+  {
+    "id": "survex-data",
+    "name": "Survex data"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte"
+  },
+  {
+    "id": "svg",
+    "name": "SVG"
+  },
+  {
+    "id": "sway",
+    "name": "Sway"
+  },
+  {
+    "id": "sweave",
+    "name": "Sweave"
+  },
+  {
+    "id": "swift",
+    "name": "Swift"
+  },
+  {
+    "id": "swig",
+    "name": "SWIG"
+  },
+  {
+    "id": "systemverilog",
+    "name": "SystemVerilog"
+  },
+  {
+    "id": "tact",
+    "name": "Tact"
+  },
+  {
+    "id": "talon",
+    "name": "Talon"
+  },
+  {
+    "id": "tcl",
+    "name": "Tcl"
+  },
+  {
+    "id": "tcsh",
+    "name": "Tcsh"
+  },
+  {
+    "id": "tea",
+    "name": "Tea"
+  },
+  {
+    "id": "teal",
+    "name": "Teal"
+  },
+  {
+    "id": "templ",
+    "name": "templ"
+  },
+  {
+    "id": "terra",
+    "name": "Terra"
+  },
+  {
+    "id": "terraform-template",
+    "name": "Terraform Template"
+  },
+  {
+    "id": "tex",
+    "name": "TeX"
+  },
+  {
+    "id": "texinfo",
+    "name": "Texinfo"
+  },
+  {
+    "id": "text",
+    "name": "Text"
+  },
+  {
+    "id": "textgrid",
+    "name": "TextGrid"
+  },
+  {
+    "id": "textile",
+    "name": "Textile"
+  },
+  {
+    "id": "textmate-properties",
+    "name": "TextMate Properties"
+  },
+  {
+    "id": "thrift",
+    "name": "Thrift"
+  },
+  {
+    "id": "ti-program",
+    "name": "TI Program"
+  },
+  {
+    "id": "tl-verilog",
+    "name": "TL-Verilog"
+  },
+  {
+    "id": "tla",
+    "name": "TLA"
+  },
+  {
+    "id": "tmdl",
+    "name": "TMDL"
+  },
+  {
+    "id": "toit",
+    "name": "Toit"
+  },
+  {
+    "id": "toml",
+    "name": "TOML"
+  },
+  {
+    "id": "tor-config",
+    "name": "Tor Config"
+  },
+  {
+    "id": "tree-sitter-query",
+    "name": "Tree-sitter Query"
+  },
+  {
+    "id": "tsplib-data",
+    "name": "TSPLIB data"
+  },
+  {
+    "id": "tsql",
+    "name": "TSQL"
+  },
+  {
+    "id": "tsv",
+    "name": "TSV"
+  },
+  {
+    "id": "tsx",
+    "name": "TSX"
+  },
+  {
+    "id": "turing",
+    "name": "Turing"
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle"
+  },
+  {
+    "id": "twig",
+    "name": "Twig"
+  },
+  {
+    "id": "txl",
+    "name": "TXL"
+  },
+  {
+    "id": "type-language",
+    "name": "Type Language"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript"
+  },
+  {
+    "id": "typespec",
+    "name": "TypeSpec"
+  },
+  {
+    "id": "typst",
+    "name": "Typst"
+  },
+  {
+    "id": "unified-parallel-c",
+    "name": "Unified Parallel C"
+  },
+  {
+    "id": "unity3d-asset",
+    "name": "Unity3D Asset"
+  },
+  {
+    "id": "unix-assembly",
+    "name": "Unix Assembly"
+  },
+  {
+    "id": "uno",
+    "name": "Uno"
+  },
+  {
+    "id": "unrealscript",
+    "name": "UnrealScript"
+  },
+  {
+    "id": "untyped-plutus-core",
+    "name": "Untyped Plutus Core"
+  },
+  {
+    "id": "urweb",
+    "name": "UrWeb"
+  },
+  {
+    "id": "v",
+    "name": "V"
+  },
+  {
+    "id": "vala",
+    "name": "Vala"
+  },
+  {
+    "id": "valve-data-format",
+    "name": "Valve Data Format"
+  },
+  {
+    "id": "vba",
+    "name": "VBA"
+  },
+  {
+    "id": "vbscript",
+    "name": "VBScript"
+  },
+  {
+    "id": "vcard",
+    "name": "vCard"
+  },
+  {
+    "id": "vcl",
+    "name": "VCL"
+  },
+  {
+    "id": "velocity-template-language",
+    "name": "Velocity Template Language"
+  },
+  {
+    "id": "vento",
+    "name": "Vento"
+  },
+  {
+    "id": "verilog",
+    "name": "Verilog"
+  },
+  {
+    "id": "vhdl",
+    "name": "VHDL"
+  },
+  {
+    "id": "vim-help-file",
+    "name": "Vim Help File"
+  },
+  {
+    "id": "vim-script",
+    "name": "Vim Script"
+  },
+  {
+    "id": "vim-snippet",
+    "name": "Vim Snippet"
+  },
+  {
+    "id": "visual-basic-.net",
+    "name": "Visual Basic .NET"
+  },
+  {
+    "id": "visual-basic-.net",
+    "name": "Visual Basic .NET"
+  },
+  {
+    "id": "visual-basic-6.0",
+    "name": "Visual Basic 6.0"
+  },
+  {
+    "id": "volt",
+    "name": "Volt"
+  },
+  {
+    "id": "vue",
+    "name": "Vue"
+  },
+  {
+    "id": "vyper",
+    "name": "Vyper"
+  },
+  {
+    "id": "wavefront-material",
+    "name": "Wavefront Material"
+  },
+  {
+    "id": "wavefront-object",
+    "name": "Wavefront Object"
+  },
+  {
+    "id": "wdl",
+    "name": "WDL"
+  },
+  {
+    "id": "web-ontology-language",
+    "name": "Web Ontology Language"
+  },
+  {
+    "id": "webassembly",
+    "name": "WebAssembly"
+  },
+  {
+    "id": "webassembly-interface-type",
+    "name": "WebAssembly Interface Type"
+  },
+  {
+    "id": "webidl",
+    "name": "WebIDL"
+  },
+  {
+    "id": "webvtt",
+    "name": "WebVTT"
+  },
+  {
+    "id": "wget-config",
+    "name": "Wget Config"
+  },
+  {
+    "id": "wgsl",
+    "name": "WGSL"
+  },
+  {
+    "id": "whiley",
+    "name": "Whiley"
+  },
+  {
+    "id": "wikitext",
+    "name": "Wikitext"
+  },
+  {
+    "id": "win32-message-file",
+    "name": "Win32 Message File"
+  },
+  {
+    "id": "windows-registry-entries",
+    "name": "Windows Registry Entries"
+  },
+  {
+    "id": "wisp",
+    "name": "wisp"
+  },
+  {
+    "id": "witcher-script",
+    "name": "Witcher Script"
+  },
+  {
+    "id": "wolfram-language",
+    "name": "Wolfram Language"
+  },
+  {
+    "id": "wollok",
+    "name": "Wollok"
+  },
+  {
+    "id": "world-of-warcraft-addon-data",
+    "name": "World of Warcraft Addon Data"
+  },
+  {
+    "id": "wren",
+    "name": "Wren"
+  },
+  {
+    "id": "x-bitmap",
+    "name": "X BitMap"
+  },
+  {
+    "id": "x-font-directory-index",
+    "name": "X Font Directory Index"
+  },
+  {
+    "id": "x-pixmap",
+    "name": "X PixMap"
+  },
+  {
+    "id": "x10",
+    "name": "X10"
+  },
+  {
+    "id": "xbase",
+    "name": "xBase"
+  },
+  {
+    "id": "xc",
+    "name": "XC"
+  },
+  {
+    "id": "xcompose",
+    "name": "XCompose"
+  },
+  {
+    "id": "xmake",
+    "name": "Xmake"
+  },
+  {
+    "id": "xml",
+    "name": "XML"
+  },
+  {
+    "id": "xml-property-list",
+    "name": "XML Property List"
+  },
+  {
+    "id": "xojo",
+    "name": "Xojo"
+  },
+  {
+    "id": "xonsh",
+    "name": "Xonsh"
+  },
+  {
+    "id": "xpages",
+    "name": "XPages"
+  },
+  {
+    "id": "xproc",
+    "name": "XProc"
+  },
+  {
+    "id": "xquery",
+    "name": "XQuery"
+  },
+  {
+    "id": "xs",
+    "name": "XS"
+  },
+  {
+    "id": "xslt",
+    "name": "XSLT"
+  },
+  {
+    "id": "xtend",
+    "name": "Xtend"
+  },
+  {
+    "id": "yacc",
+    "name": "Yacc"
+  },
+  {
+    "id": "yaml",
+    "name": "YAML"
+  },
+  {
+    "id": "yang",
+    "name": "YANG"
+  },
+  {
+    "id": "yara",
+    "name": "YARA"
+  },
+  {
+    "id": "yasnippet",
+    "name": "YASnippet"
+  },
+  {
+    "id": "yul",
+    "name": "Yul"
+  },
+  {
+    "id": "zap",
+    "name": "ZAP"
+  },
+  {
+    "id": "zeek",
+    "name": "Zeek"
+  },
+  {
+    "id": "zenscript",
+    "name": "ZenScript"
+  },
+  {
+    "id": "zephir",
+    "name": "Zephir"
+  },
+  {
+    "id": "zig",
+    "name": "Zig"
+  },
+  {
+    "id": "zil",
+    "name": "ZIL"
+  },
+  {
+    "id": "zimpl",
+    "name": "Zimpl"
+  },
+  {
+    "id": "zmodel",
+    "name": "Zmodel"
+  }
+]

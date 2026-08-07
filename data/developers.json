@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "name": "Mason Smith",
+    "nickname": "msmith95",
+    "link": "index.html",
+    "icon": "avatars/avatar-02.png",
+    "repositories": [
+      23
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Leo Fernandez",
+    "nickname": "lfernandez29",
+    "link": "index.html",
+    "icon": "avatars/avatar-03.png",
+    "repositories": [
+      3,
+      9,
+      14
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Isabella Silva",
+    "nickname": "isilva87",
+    "link": "index.html",
+    "icon": "avatars/avatar-04.png",
+    "repositories": [
+      12
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Aria Andersen",
+    "nickname": "aandersen76",
+    "link": "index.html",
+    "icon": "avatars/avatar-05.png",
+    "repositories": [
+      1,
+      14
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Theo Garcia",
+    "nickname": "tgarcia4",
+    "link": "index.html",
+    "icon": "avatars/avatar-06.png",
+    "repositories": [
+      4,
+      5,
+      8,
+      13,
+      21
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ethan Johansson",
+    "nickname": "ejohansson30",
+    "link": "index.html",
+    "icon": "avatars/avatar-07.png",
+    "repositories": [
+      7
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Elena Persson",
+    "nickname": "epersson4",
+    "link": "index.html",
+    "icon": "avatars/avatar-08.png",
+    "repositories": [
+      13
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Kai Patel",
+    "nickname": "kpatel92",
+    "link": "index.html",
+    "icon": "avatars/avatar-09.png",
+    "repositories": [
+      3,
+      9,
+      16
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Aria Lindqvist",
+    "nickname": "alindqvist29",
+    "link": "index.html",
+    "icon": "avatars/avatar-10.png",
+    "repositories": [
+      4,
+      6,
+      15,
+      22
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chloe Alaoui",
+    "nickname": "calaoui36",
+    "link": "index.html",
+    "icon": "avatars/avatar-11.png",
+    "repositories": [
+      17,
+      21
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Sofia Rossi",
+    "nickname": "srossi90",
+    "link": "index.html",
+    "icon": "avatars/avatar-12.png",
+    "repositories": [
+      18,
+      21
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Theo Petit",
+    "nickname": "tpetit36",
+    "link": "index.html",
+    "icon": "avatars/avatar-13.png",
+    "repositories": [
+      8
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Lucas Johansson",
+    "nickname": "ljohansson98",
+    "link": "index.html",
+    "icon": "avatars/avatar-14.png",
+    "repositories": [
+      1,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Felix Silva",
+    "nickname": "fsilva12",
+    "link": "index.html",
+    "icon": "avatars/avatar-15.png",
+    "repositories": [
+      7,
+      17,
+      20
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ivy Silva",
+    "nickname": "isilva46",
+    "link": "index.html",
+    "icon": "avatars/avatar-16.png",
+    "repositories": [
+      4,
+      6,
+      7,
+      11,
+      14,
+      15,
+      17,
+      21
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Ruby Persson",
+    "nickname": "rpersson34",
+    "link": "index.html",
+    "icon": "avatars/avatar-17.png",
+    "repositories": [
+      10,
+      13
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Emma Bianchi",
+    "nickname": "ebianchi69",
+    "link": "index.html",
+    "icon": "avatars/avatar-18.png",
+    "repositories": [
+      5,
+      6,
+      11,
+      22,
+      23
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mason Kaur",
+    "nickname": "mkaur11",
+    "link": "index.html",
+    "icon": "avatars/avatar-19.png",
+    "repositories": [
+      10,
+      13
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Kai Berg",
+    "nickname": "kberg81",
+    "link": "index.html",
+    "icon": "avatars/avatar-20.png",
+    "repositories": [
+      14
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Elias Wang",
+    "nickname": "ewang74",
+    "link": "index.html",
+    "icon": "avatars/avatar-21.png",
+    "repositories": [
+      2,
+      3,
+      9,
+      11,
+      19,
+      23
+    ]
+  }
+]

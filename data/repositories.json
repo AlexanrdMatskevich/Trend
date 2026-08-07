@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "name": "epersson4/mighty-kernel",
+    "description": "Type-safe query builder with zero-cost abstractions.",
+    "language": "haskell",
+    "number_of_stargazers": 29921,
+    "number_of_forks": 4742,
+    "developers": [
+      4,
+      13
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 327,
+    "spoken_language": "hi"
+  },
+  {
+    "id": 2,
+    "name": "ejohansson30/solid-spark",
+    "description": "Graph database client with a fluent, chainable API.",
+    "language": "c++",
+    "number_of_stargazers": 35043,
+    "number_of_forks": 11499,
+    "developers": [
+      20
+    ],
+    "link": "index.html",
+    "sponsor": true,
+    "today_stars": 2800,
+    "spoken_language": "ru"
+  },
+  {
+    "id": 3,
+    "name": "ejohansson30/clean-fabric",
+    "description": "Reactive state management without the boilerplate.",
+    "language": "ruby",
+    "number_of_stargazers": 83936,
+    "number_of_forks": 14393,
+    "developers": [
+      2,
+      8,
+      20
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 2805,
+    "spoken_language": "ko"
+  },
+  {
+    "id": 4,
+    "name": "isilva87/cosmic-scheduler",
+    "description": "Declarative configuration engine for distributed systems.",
+    "language": "groovy",
+    "number_of_stargazers": 41295,
+    "number_of_forks": 6968,
+    "developers": [
+      13,
+      15,
+      5,
+      9
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 2685,
+    "spoken_language": "vi"
+  },
+  {
+    "id": 5,
+    "name": "mkaur11/nimble-scheduler",
+    "description": "High-performance cache layer with pluggable eviction policies.",
+    "language": "html",
+    "number_of_stargazers": 76534,
+    "number_of_forks": 13088,
+    "developers": [
+      5,
+      17
+    ],
+    "link": "index.html",
+    "sponsor": true,
+    "today_stars": 1483,
+    "spoken_language": "es"
+  },
+  {
+    "id": 6,
+    "name": "aandersen76/rapid-toolkit",
+    "description": "A tiny scheduler for background jobs and cron-like tasks.",
+    "language": "clojure",
+    "number_of_stargazers": 55383,
+    "number_of_forks": 19544,
+    "developers": [
+      13,
+      15,
+      17,
+      9
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 261,
+    "spoken_language": "en"
+  },
+  {
+    "id": 7,
+    "name": "aandersen76/fast-graph",
+    "description": "A blazing fast toolkit for building modern web experiences.",
+    "language": "perl",
+    "number_of_stargazers": 84062,
+    "number_of_forks": 22294,
+    "developers": [
+      14,
+      6,
+      15
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 457,
+    "spoken_language": "ko"
+  },
+  {
+    "id": 8,
+    "name": "ebianchi69/silent-socket",
+    "description": "Reactive state management without the boilerplate.",
+    "language": "zig",
+    "number_of_stargazers": 13997,
+    "number_of_forks": 5123,
+    "developers": [
+      5,
+      12
+    ],
+    "link": "index.html",
+    "sponsor": true,
+    "today_stars": 1223,
+    "spoken_language": "uk"
+  },
+  {
+    "id": 9,
+    "name": "msmith95/proto-compose",
+    "description": "Socket abstraction layer for cross-platform networking.",
+    "language": "shell",
+    "number_of_stargazers": 2602,
+    "number_of_forks": 230,
+    "developers": [
+      8,
+      2,
+      20
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 1487,
+    "spoken_language": "fr"
+  },
+  {
+    "id": 10,
+    "name": "isilva87/lazy-forge",
+    "description": "Declarative configuration engine for distributed systems.",
+    "language": "perl",
+    "number_of_stargazers": 69872,
+    "number_of_forks": 25095,
+    "developers": [
+      16,
+      18
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 516,
+    "spoken_language": "th"
+  },
+  {
+    "id": 11,
+    "name": "fsilva12/cosmic-pipe",
+    "description": "Minimal, dependency-free library for working with async streams.",
+    "language": "perl",
+    "number_of_stargazers": 26415,
+    "number_of_forks": 5108,
+    "developers": [
+      15,
+      17,
+      20
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 1635,
+    "spoken_language": "fr"
+  },
+  {
+    "id": 12,
+    "name": "srossi90/swift-scheduler",
+    "description": "Zero-config bundler tuned for monorepos.",
+    "language": "scala",
+    "number_of_stargazers": 30211,
+    "number_of_forks": 9642,
+    "developers": [
+      3
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 903,
+    "spoken_language": "ru"
+  },
+  {
+    "id": 13,
+    "name": "isilva87/tiny-compose",
+    "description": "A lightweight runtime for running plugins in isolated sandboxes.",
+    "language": "typescript",
+    "number_of_stargazers": 67441,
+    "number_of_forks": 7799,
+    "developers": [
+      7,
+      18,
+      5,
+      16
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 1141,
+    "spoken_language": "tr"
+  },
+  {
+    "id": 14,
+    "name": "epersson4/open-stream",
+    "description": "Composable UI primitives with first-class accessibility support.",
+    "language": "haskell",
+    "number_of_stargazers": 56548,
+    "number_of_forks": 11610,
+    "developers": [
+      15,
+      2,
+      4,
+      19
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 1735,
+    "spoken_language": "de"
+  },
+  {
+    "id": 15,
+    "name": "kpatel92/cosmic-lens",
+    "description": "A lightweight runtime for running plugins in isolated sandboxes.",
+    "language": "scala",
+    "number_of_stargazers": 58850,
+    "number_of_forks": 4594,
+    "developers": [
+      9,
+      15
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 1729,
+    "spoken_language": "fr"
+  },
+  {
+    "id": 16,
+    "name": "isilva46/fast-stream",
+    "description": "Declarative configuration engine for distributed systems.",
+    "language": "javascript",
+    "number_of_stargazers": 70905,
+    "number_of_forks": 27395,
+    "developers": [
+      8
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 61,
+    "spoken_language": "sv"
+  },
+  {
+    "id": 17,
+    "name": "epersson4/clever-kernel",
+    "description": "Zero-config bundler tuned for monorepos.",
+    "language": "java",
+    "number_of_stargazers": 49722,
+    "number_of_forks": 71,
+    "developers": [
+      15,
+      10,
+      14
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 1600,
+    "spoken_language": "vi"
+  },
+  {
+    "id": 18,
+    "name": "rpersson34/rapid-lens",
+    "description": "A blazing fast toolkit for building modern web experiences.",
+    "language": "php",
+    "number_of_stargazers": 28584,
+    "number_of_forks": 959,
+    "developers": [
+      11
+    ],
+    "link": "index.html",
+    "sponsor": true,
+    "today_stars": 2373,
+    "spoken_language": "sv"
+  },
+  {
+    "id": 19,
+    "name": "ebianchi69/zen-toolkit",
+    "description": "Minimal, dependency-free library for working with async streams.",
+    "language": "javascript",
+    "number_of_stargazers": 66612,
+    "number_of_forks": 2626,
+    "developers": [
+      20
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 762,
+    "spoken_language": "ru"
+  },
+  {
+    "id": 20,
+    "name": "ljohansson98/open-scheduler",
+    "description": "Graph database client with a fluent, chainable API.",
+    "language": "c%23",
+    "number_of_stargazers": 75930,
+    "number_of_forks": 19482,
+    "developers": [
+      14
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 163,
+    "spoken_language": "uk"
+  },
+  {
+    "id": 21,
+    "name": "srossi90/nimble-lens",
+    "description": "Socket abstraction layer for cross-platform networking.",
+    "language": "haskell",
+    "number_of_stargazers": 41230,
+    "number_of_forks": 7822,
+    "developers": [
+      5,
+      10,
+      15,
+      11
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 1088,
+    "spoken_language": "fr"
+  },
+  {
+    "id": 22,
+    "name": "msmith95/clean-codec",
+    "description": "Declarative configuration engine for distributed systems.",
+    "language": "vue",
+    "number_of_stargazers": 13154,
+    "number_of_forks": 601,
+    "developers": [
+      17,
+      9
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 2203,
+    "spoken_language": "fr"
+  },
+  {
+    "id": 23,
+    "name": "kpatel92/solid-runtime",
+    "description": "Graph database client with a fluent, chainable API.",
+    "language": "java",
+    "number_of_stargazers": 57483,
+    "number_of_forks": 17801,
+    "developers": [
+      20,
+      17,
+      1
+    ],
+    "link": "index.html",
+    "sponsor": false,
+    "today_stars": 2882,
+    "spoken_language": "it"
+  }
+]
