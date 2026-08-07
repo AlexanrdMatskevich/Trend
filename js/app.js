@@ -81,7 +81,10 @@
   }
 
   function svgStar() {
-    return '<svg height="14" width="14" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>';
+    return '<svg height="14" width="14" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path></svg>';
+  }
+  function svgHeart() {
+    return '<svg height="14" width="14" viewBox="0 0 16 16"><path d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"></path></svg>';
   }
   function svgFork() {
     return '<svg height="14" width="14" viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path></svg>';
@@ -92,8 +95,14 @@
 
   function renderRepoActions(repo) {
     var isStarred = !!state.starred[repo.id];
+    var sponsorBtn = repo.sponsor
+      ? '<a href="' + repo.link + '" class="btn-sponsor" aria-label="Sponsor ' + repo.name + '">' +
+          svgHeart() + '<span class="d-md-inline">Sponsor</span>' +
+        '</a>'
+      : "";
     return (
       '<div class="repo-actions">' +
+        sponsorBtn +
         '<div class="BtnGroup">' +
           '<button type="button" class="rounded-left-2 btn-sm btn BtnGroup-item' + (isStarred ? ' is-starred' : '') + '" data-action="toggle-star" data-repo-id="' + repo.id + '">' +
             svgStar() + '<span class="star-label">' + (isStarred ? "Starred" : "Star") + '</span>' +
@@ -140,19 +149,17 @@
         return '<img src="' + d.icon + '" alt="' + d.name + '" title="' + d.name + '">';
       }).join("");
 
-      var sponsorBadge = repo.sponsor
-        ? '<span class="sponsor-badge">Sponsor</span>'
-        : "";
-
       var parts = repo.name.split("/");
       var owner = parts[0], name = parts[1];
 
       return (
         '<div class="trend-item">' +
           '<div class="repo-main">' +
-            '<div class="repo-title">' +
-              '<a href="' + repo.link + '"><span class="owner">' + owner + ' / </span>' + name + '</a> ' +
-              sponsorBadge +
+            '<div class="repo-title-row">' +
+              '<div class="repo-title">' +
+                '<a href="' + repo.link + '"><span class="owner">' + owner + ' / </span>' + name + '</a>' +
+              '</div>' +
+              renderRepoActions(repo) +
             '</div>' +
             '<p class="repo-desc">' + repo.description + '</p>' +
             '<div class="repo-meta">' +
@@ -161,7 +168,6 @@
               '<span class="meta-item">' + svgFork() + formatNumber(repo.number_of_forks) + '</span>' +
               (avatars ? '<span class="contributors">' + avatars + '</span>' : '') +
               '<span class="today-stars">' + svgStar() + ' ' + formatNumber(repo.period_stars) + ' stars ' + rangeLabel + '</span>' +
-              renderRepoActions(repo) +
             '</div>' +
           '</div>' +
         '</div>'

@@ -179,8 +179,15 @@ a:hover { text-decoration: underline; }
 
 /* Repository row */
 .repo-main { flex: 1; min-width: 0; }
+.repo-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
 .repo-title { font-size: 16px; font-weight: 600; }
-.repo-title .owner { color: var(--fg-muted); font-weight: 400; }
+.repo-title a { color: var(--accent); }
+.repo-title .owner { font-weight: 400; }
 .repo-desc { margin: 4px 0 8px; color: var(--fg); }
 .repo-meta {
   display: flex;
@@ -208,23 +215,11 @@ a:hover { text-decoration: underline; }
   object-fit: cover;
 }
 .contributors img:first-child { margin-left: 0; }
-.sponsor-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 2px 8px;
-  border: 1px solid #eac54f;
-  color: #9a6700;
-  border-radius: 12px;
-  font-size: 11px;
-  font-weight: 600;
-}
 .today-stars {
   margin-left: auto;
   font-weight: 600;
   color: var(--fg);
 }
-.today-stars svg { fill: #eac54f; }
 
 /* Developer row */
 .dev-rank {
@@ -262,7 +257,22 @@ a:hover { text-decoration: underline; }
 }
 
 /* Star split-button */
-.repo-actions { margin-left: auto; display: flex; }
+.repo-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.dev-repo .repo-actions { margin-left: auto; }
+.btn-sponsor {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+  color: var(--fg);
+  font-size: 12px;
+  font-weight: 500;
+}
+.btn-sponsor:hover { text-decoration: none; background: #eee; }
+.btn-sponsor svg { fill: #bf3989; }
 .BtnGroup { display: flex; }
 .btn {
   display: inline-flex;
