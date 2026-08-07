@@ -206,7 +206,7 @@
     langList.innerHTML =
       '<a href="#" data-filter-value="">Any</a>' +
       state.data.languages.map(function (l) {
-        return '<a href="#" data-filter-value="' + l.id + '"><span class="lang-dot" style="background:' + languageColor(l.id) + '"></span>' + l.name + '</a>';
+        return '<a href="#" data-filter-value="' + l.id + '">' + l.name + '</a>';
       }).join("");
 
     var spokenList = document.querySelector('[data-list-for="spoken_language"]');
@@ -251,6 +251,25 @@
 
         list.closest("details").removeAttribute("open");
         render();
+      });
+    });
+  }
+
+  function setupDropdownBehavior() {
+    var menus = Array.prototype.slice.call(document.querySelectorAll(".select-menu"));
+
+    menus.forEach(function (menu) {
+      menu.addEventListener("toggle", function () {
+        if (!menu.open) return;
+        menus.forEach(function (other) {
+          if (other !== menu) other.removeAttribute("open");
+        });
+      });
+    });
+
+    document.addEventListener("click", function (e) {
+      menus.forEach(function (menu) {
+        if (menu.open && !menu.contains(e.target)) menu.removeAttribute("open");
       });
     });
   }
@@ -356,6 +375,7 @@
       renderFilterMenus();
       setupFilterSearch();
       setupFilterSelection();
+      setupDropdownBehavior();
       setupTabs();
       setupRepoActions();
       setupListsDialog();

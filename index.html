@@ -21,28 +21,29 @@
       </nav>
 
       <div class="filters" id="filters">
-        <details class="select-menu" id="menu-language">
-          <summary>Language: <span class="menu-value" data-value-for="language">Any</span></summary>
-          <div class="select-menu-panel">
-            <div class="select-menu-panel-header">Select a language</div>
-            <input type="text" class="filter-input" placeholder="Filter languages" data-filter-for="language">
-            <div class="select-menu-list" data-list-for="language"></div>
-          </div>
-        </details>
-
         <details class="select-menu" id="menu-spoken-language">
-          <summary>Spoken Language: <span class="menu-value" data-value-for="spoken_language">Any</span></summary>
+          <summary>Spoken Language: <span class="menu-value" data-value-for="spoken_language">Any</span><span class="caret"></span></summary>
           <div class="select-menu-panel">
-            <div class="select-menu-panel-header">Select a spoken language</div>
+            <div class="select-menu-header">Select a spoken language</div>
+            <p class="select-menu-note">This setting can be saved in your <a href="index.html">profile settings</a>.</p>
             <input type="text" class="filter-input" placeholder="Filter spoken languages" data-filter-for="spoken_language">
             <div class="select-menu-list" data-list-for="spoken_language"></div>
           </div>
         </details>
 
-        <details class="select-menu" id="menu-date">
-          <summary>Date range: <span class="menu-value" data-value-for="date_range">Today</span></summary>
+        <details class="select-menu" id="menu-language">
+          <summary>Language: <span class="menu-value" data-value-for="language">Any</span><span class="caret"></span></summary>
           <div class="select-menu-panel">
-            <div class="select-menu-panel-header">Adjust time span</div>
+            <div class="select-menu-header">Select a language</div>
+            <input type="text" class="filter-input" placeholder="Filter languages" data-filter-for="language">
+            <div class="select-menu-list" data-list-for="language"></div>
+          </div>
+        </details>
+
+        <details class="select-menu" id="menu-date">
+          <summary>Date range: <span class="menu-value" data-value-for="date_range">Today</span><span class="caret"></span></summary>
+          <div class="select-menu-panel">
+            <div class="select-menu-header">Adjust time span</div>
             <div class="select-menu-list" data-list-for="date_range"></div>
           </div>
         </details>
