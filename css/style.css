@@ -210,16 +210,14 @@ a:hover { text-decoration: underline; }
   height: 10px;
   border-radius: 50%;
 }
-.contributors { display: flex; }
+.contributors { display: flex; align-items: center; gap: 6px; }
+.contributors-label { color: var(--fg-muted); }
 .contributors img {
   width: 20px; height: 20px;
   border-radius: 50%;
-  border: 2px solid #fff;
-  margin-left: -8px;
   background: var(--bg-subtle);
   object-fit: cover;
 }
-.contributors img:first-child { margin-left: 0; }
 .today-stars {
   margin-left: auto;
   color: var(--fg-muted);

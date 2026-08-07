@@ -150,7 +150,7 @@
     }
 
     container.innerHTML = repos.map(function (repo) {
-      var contributors = repo.developers.map(developerById).filter(Boolean).slice(0, 5);
+      var contributors = repo.developers.map(developerById).filter(Boolean).slice(0, 6);
       var avatars = contributors.map(function (d) {
         return '<img src="' + d.icon + '" alt="' + d.name + '" title="' + d.name + '">';
       }).join("");
@@ -173,7 +173,7 @@
               '<span class="meta-item"><span class="lang-dot" style="background:' + languageColor(repo.language) + '"></span>' + languageName(repo.language) + '</span>' +
               '<span class="meta-item">' + svgStar() + formatNumber(repo.number_of_stargazers) + '</span>' +
               '<span class="meta-item">' + svgFork() + formatNumber(repo.number_of_forks) + '</span>' +
-              (avatars ? '<span class="contributors">' + avatars + '</span>' : '') +
+              (avatars ? '<span class="contributors"><span class="contributors-label">Built by</span>' + avatars + '</span>' : '') +
               '<span class="today-stars">' + svgStar() + ' ' + formatNumber(repo.period_stars) + ' stars ' + rangeLabel + '</span>' +
             '</div>' +
           '</div>' +
